@@ -1,0 +1,1 @@
+/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.zsh

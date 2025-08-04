@@ -1,0 +1,59 @@
+[0.008s] Invoking command in '/home/rumy/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/acrome_mini_robot -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/acrome_mini_robot
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.088s] -- The CXX compiler identification is GNU 13.3.0
+[0.099s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.375s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.527s] -- Configuring done (0.5s)
+[0.529s] -- Generating done (0.0s)
+[0.530s] -- Build files have been written to: /home/rumy/acrome_ws/build/acrome_mini_robot
+[0.533s] Invoked command in '/home/rumy/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/acrome_mini_robot -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/acrome_mini_robot
+[0.534s] Invoking command in '/home/rumy/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/acrome_mini_robot -- -j12 -l12
+[0.562s] Invoked command in '/home/rumy/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/acrome_mini_robot -- -j12 -l12
+[0.569s] Invoking command in '/home/rumy/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/acrome_mini_robot
+[0.575s] -- Install configuration: ""
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.pyZone.Identifier
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launchZone.Identifier
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launchZone.Identifier
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launch
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launch
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.py
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/AcromeMiniRobot.urdf
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/AcromeMiniRobot.csv
+[0.576s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/base_link.STL
+[0.591s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/left_wheel.STL
+[0.591s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/right_wheel.STL
+[0.592s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes
+[0.592s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.STLZone.Identifier
+[0.592s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.STLZone.Identifier
+[0.592s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.STL
+[0.608s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.STL
+[0.608s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.STL
+[0.609s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.STLZone.Identifier
+[0.609s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
+[0.609s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
+[0.609s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.dsv
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.sh
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.dsv
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.bash
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.sh
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.zsh
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.dsv
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.dsv
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/packages/acrome_mini_robot
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig.cmake
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig-version.cmake
+[0.610s] -- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.xml
+[0.612s] Invoked command in '/home/rumy/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/acrome_mini_robot

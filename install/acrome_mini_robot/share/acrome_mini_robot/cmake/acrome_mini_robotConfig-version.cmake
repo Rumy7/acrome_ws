@@ -1,0 +1,1 @@
+/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig-version.cmake

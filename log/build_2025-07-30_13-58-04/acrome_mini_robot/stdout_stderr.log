@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rumy/acrome_ws/build/acrome_mini_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launch
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launch
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.py
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/acrome_mini_robot.urdf
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.STL
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.STL
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.STL
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.sh
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.dsv
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.bash
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.sh
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.zsh
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.dsv
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.dsv
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/packages/acrome_mini_robot
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig.cmake
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig-version.cmake
+-- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.xml

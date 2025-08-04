@@ -1,0 +1,15 @@
+<package format="3">
+  <name>acrome_mini_robot</name>
+  <version>1.0.0</version>
+  <description>Acrome URDF robot for Gazebo Harmonic</description>
+  <maintainer email="fethicandan@gmail.com">Fethi Candan</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

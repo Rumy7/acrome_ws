@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="acrome_mini_robot">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.004817 0.018224 0.000192" rpy="0 0 0" />
+      <mass value="0.362984" />
+      <inertia ixx="0.000192" ixy="0" ixz="0" iyy="0.000626" iyz="0" izz="0.000789" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/base_link.stl" />
+      </geometry>
+      <material name="default">
+        <color rgba="0.792156 0.819607 0.933333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="left_wheel">
+    <inertial>
+      <origin xyz="0.006001 -0.000499 0.000223" rpy="0 0 0" />
+      <mass value="0.031169" />
+      <inertia ixx="0.000002" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.000001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/left_wheel.stl" />
+      </geometry>
+      <material name="default">
+        <color rgba="0.792156 0.819607 0.933333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/left_wheel.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="leftwheel" type="continuous">
+    <origin xyz="-0.14277 -5.9761E-05 -0.01126" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="left_wheel" />
+    <axis xyz="-1 0 0" />
+    <limit effort="10" velocity="10" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <link name="right_wheel">
+    <inertial>
+      <origin xyz="-0.00600143061412553 0.000511557166585529 -0.000194639007620264" rpy="0 0 0" />
+      <mass value="0.031169" />
+      <inertia ixx="0.000002" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.000001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/right_wheel.stl" />
+      </geometry>
+      <material name="default">
+        <color rgba="0.792156 0.819607 0.933333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/right_wheel.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rightwheel" type="continuous">
+    <origin xyz="0.14283 -5.9761E-05 -0.01126" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="right_wheel" />
+    <axis xyz="1 0 0" />
+    <limit effort="10" velocity="10" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+</robot>

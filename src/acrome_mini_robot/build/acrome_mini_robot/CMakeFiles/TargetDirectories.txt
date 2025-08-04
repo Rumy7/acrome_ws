@@ -1,0 +1,9 @@
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/uninstall.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/acrome_mini_robot_uninstall.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/test.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/edit_cache.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/rebuild_cache.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/list_install_components.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/install.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/install/local.dir
+/home/rumy/acrome_ws/src/acrome_mini_robot/build/acrome_mini_robot/CMakeFiles/install/strip.dir

@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rumy/acrome_ws/build/acrome_mini_robot
+-- Install configuration: ""
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.pyZone.Identifier
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launchZone.Identifier
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launchZone.Identifier
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launch
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launch
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.py
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/AcromeMiniRobot.urdf
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/AcromeMiniRobot.csv
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/base_link.STL
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/left_wheel.STL
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/right_wheel.STL
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.STLZone.Identifier
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.STLZone.Identifier
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.STL
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.STL
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.STL
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.STLZone.Identifier
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.sh
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.dsv
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.bash
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.sh
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.zsh
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.dsv
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.dsv
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/packages/acrome_mini_robot
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig.cmake
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig-version.cmake
+-- Installing: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.xml

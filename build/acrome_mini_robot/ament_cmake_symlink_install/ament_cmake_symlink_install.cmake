@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "urdf" "meshes" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_directory("/home/rumy/acrome_ws/src/acrome_mini_robot" DIRECTORY "launch" "urdf" "meshes" "DESTINATION" "share/acrome_mini_robot")
+# install(DIRECTORY "launch" "urdf" "meshes" "config" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_directory("/home/rumy/acrome_ws/src/acrome_mini_robot" DIRECTORY "launch" "urdf" "meshes" "config" "DESTINATION" "share/acrome_mini_robot")
 
 # install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

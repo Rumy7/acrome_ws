@@ -1,0 +1,1 @@
+/home/rumy/acrome_ws/build/gripper_controllers/ament_cmake_core/gripper_controllersConfig.cmake

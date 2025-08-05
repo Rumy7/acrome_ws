@@ -1,0 +1,32 @@
+[0.117s] Invoking command in '/home/rumy/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/acrome_mini_robot -- -j12 -l12
+[0.357s] Invoked command in '/home/rumy/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/acrome_mini_robot -- -j12 -l12
+[0.358s] Invoking command in '/home/rumy/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/acrome_mini_robot
+[0.369s] -- Install configuration: ""
+[0.372s] -- Execute custom install script
+[0.372s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launch
+[0.372s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launch
+[0.373s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.py
+[0.373s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gz.control_launch.py
+[0.373s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/teleop_launch.py
+[0.373s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/acrome_mini_robot.urdf.xacro
+[0.373s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.stl
+[0.373s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.stl
+[0.374s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.stl
+[0.374s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/config/joint_names_AcromeMiniRobot.yaml
+[0.374s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/config/my_controller.yaml
+[0.374s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.dsv
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.sh
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.dsv
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.bash
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.sh
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.zsh
+[0.375s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.dsv
+[0.376s] -- Symlinking: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.dsv
+[0.386s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/packages/acrome_mini_robot
+[0.388s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig.cmake
+[0.388s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig-version.cmake
+[0.388s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.xml
+[0.399s] Invoked command in '/home/rumy/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/acrome_mini_robot

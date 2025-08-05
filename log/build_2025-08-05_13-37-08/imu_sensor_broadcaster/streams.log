@@ -1,0 +1,76 @@
+[0.041s] Invoking command in '/home/rumy/acrome_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/imu_sensor_broadcaster -- -j12 -l12
+[39.892s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[39.893s] -- Compiler warnings enabled for GNU
+[39.893s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[39.893s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[39.893s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[39.893s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[39.893s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[39.893s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[39.893s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[39.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[39.894s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[39.894s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[39.894s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[39.894s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[39.894s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[39.894s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[39.894s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[39.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[39.895s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[39.895s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[39.895s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[39.895s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[39.895s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[39.895s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[39.895s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[39.895s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[39.895s] -- Configuring done (1.5s)
+[39.895s] -- Generating done (0.1s)
+[39.895s] -- Build files have been written to: /home/rumy/acrome_ws/build/imu_sensor_broadcaster
+[39.901s] [  7%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml `[0m
+[39.901s] [ 30%] Built target gmock
+[39.901s] [ 46%] Built target gmock_main
+[39.901s] [ 53%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters.hpp[0m
+[39.901s] [ 53%] Built target imu_sensor_broadcaster_parameters
+[39.902s] [ 61%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[39.902s] [ 69%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[39.902s] [ 69%] Built target imu_sensor_broadcaster
+[39.902s] [ 76%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[39.902s] [ 84%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[39.902s] [ 92%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[39.902s] [ 92%] Built target test_load_imu_sensor_broadcaster
+[43.669s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[45.095s] [100%] Built target test_imu_sensor_broadcaster
+[45.125s] Invoked command in '/home/rumy/acrome_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/imu_sensor_broadcaster -- -j12 -l12
+[45.138s] Invoking command in '/home/rumy/acrome_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/imu_sensor_broadcaster
+[45.173s] -- Install configuration: ""
+[45.173s] -- Execute custom install script
+[45.175s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp
+[45.175s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster//imu_sensor_broadcaster.xml
+[45.176s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[45.176s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[45.176s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[45.176s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[45.177s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[45.177s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[45.177s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[45.177s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[45.177s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[45.177s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[45.178s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[45.178s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[45.178s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[45.178s] -- Symlinking: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[45.178s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[45.179s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[45.179s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.179s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[45.179s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[45.179s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[45.180s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[45.180s] -- Installing: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[45.180s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so" to ""
+[45.180s] -- Up-to-date: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
+[45.180s] -- Up-to-date: /home/rumy/acrome_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-noconfig.cmake
+[45.258s] Invoked command in '/home/rumy/acrome_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/imu_sensor_broadcaster

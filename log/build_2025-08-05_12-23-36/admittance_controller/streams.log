@@ -1,0 +1,120 @@
+[0.046s] Invoking command in '/home/rumy/acrome_ws/build/admittance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/admittance_controller
+[0.169s] -- The C compiler identification is GNU 13.3.0
+[0.262s] -- The CXX compiler identification is GNU 13.3.0
+[0.282s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.619s] -- Detecting CXX compile features
+[0.619s] -- Detecting CXX compile features - done
+[0.629s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.631s] -- Compiler warnings enabled for GNU
+[0.632s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.637s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.909s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.091s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[1.097s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[1.175s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.202s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.563s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.661s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.667s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.787s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.823s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.412s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.414s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.415s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.574s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[2.689s] -- Found kinematics_interface: 1.4.0 (/opt/ros/jazzy/share/kinematics_interface/cmake)
+[2.711s] -- Found tf2_eigen: 0.36.12 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[2.719s] -- Found tf2_kdl: 0.36.12 (/opt/ros/jazzy/share/tf2_kdl/cmake)
+[2.733s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.742s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.872s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.878s] -- Found kinematics_interface_kdl: 1.4.0 (/opt/ros/jazzy/share/kinematics_interface_kdl/cmake)
+[2.925s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.939s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.939s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.234s] -- Configuring done (3.2s)
+[3.543s] -- Generating done (0.2s)
+[3.649s] -- Build files have been written to: /home/rumy/acrome_ws/build/admittance_controller
+[3.789s] Invoked command in '/home/rumy/acrome_ws/build/admittance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/admittance_controller
+[3.790s] Invoking command in '/home/rumy/acrome_ws/build/admittance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/admittance_controller -- -j12 -l12
+[59.871s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[59.872s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[59.872s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[59.872s] [ 30%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/admittance_controller/include/admittance_controller/admittance_controller_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller_parameters.yaml `[0m
+[59.872s] [ 38%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/admittance_controller/include/admittance_controller_parameters.hpp[0m
+[59.872s] [ 38%] Built target admittance_controller_parameters
+[59.872s] [ 46%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o[0m
+[59.872s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[59.872s] [ 53%] Built target gmock_main
+[59.872s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[59.873s] [ 61%] Built target gmock
+[59.873s] [ 69%] [32m[1mLinking CXX shared library libadmittance_controller.so[0m
+[59.873s] [ 69%] Built target admittance_controller
+[59.873s] [ 76%] [32mBuilding CXX object CMakeFiles/test_load_admittance_controller.dir/test/test_load_admittance_controller.cpp.o[0m
+[59.873s] [ 84%] [32m[1mLinking CXX executable test_load_admittance_controller[0m
+[59.873s] [ 84%] Built target test_load_admittance_controller
+[59.873s] [ 92%] [32mBuilding CXX object CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o[0m
+[59.874s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:[m[K In member function ‘[01m[Kvoid admittance_controller::AdmittanceController::[01;32m[Kread_state_from_hardware[m[K(trajectory_msgs::msg::JointTrajectoryPoint&, geometry_msgs::msg::Wrench&)[m[K’:
+[59.874s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:532:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[59.874s]   532 |       [01;35m[Kstate_interfaces_[pos_ind * num_joints_ + joint_ind].get_value()[m[K;
+[59.874s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[59.874s] 
+[59.874s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[59.874s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_rule.hpp:28[m[K,
+[59.874s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_controller.hpp:27[m[K,
+[59.874s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:17[m[K:
+[59.874s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[59.874s]    94 |   double [01;36m[Kget_value[m[K() const
+[59.874s]       |          [01;36m[K^~~~~~~~~[m[K
+[59.875s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:538:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[59.875s]   538 |       [01;35m[Kstate_interfaces_[vel_ind * num_joints_ + joint_ind].get_value()[m[K;
+[59.875s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[59.875s] 
+[59.875s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[59.875s]    94 |   double [01;36m[Kget_value[m[K() const
+[59.875s]       |          [01;36m[K^~~~~~~~~[m[K
+[59.875s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:544:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[59.875s]   544 |       [01;35m[Kstate_interfaces_[acc_ind * num_joints_ + joint_ind].get_value()[m[K;
+[59.875s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[59.875s] 
+[59.876s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[59.876s]    94 |   double [01;36m[Kget_value[m[K() const
+[59.876s]       |          [01;36m[K^~~~~~~~~[m[K
+[59.876s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:[m[K In member function ‘[01m[Kvoid admittance_controller::AdmittanceController::[01;32m[Kwrite_state_to_hardware[m[K(const trajectory_msgs::msg::JointTrajectoryPoint&)[m[K’:
+[59.876s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:585:71:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[59.876s]   585 |       [01;35m[Kcommand_interfaces_[pos_ind * num_joints_ + joint_ind].set_value([m[K
+[59.876s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[59.876s]   586 | [01;35m[K        state_commanded.positions[joint_ind])[m[K;
+[59.876s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[59.876s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K:
+[59.876s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[59.877s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[59.877s]       |                      [01;36m[K^~~~~~~~~[m[K
+[59.877s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:590:71:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[59.878s]   590 |       [01;35m[Kcommand_interfaces_[vel_ind * num_joints_ + joint_ind].set_value([m[K
+[59.878s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[59.878s]   591 | [01;35m[K        state_commanded.velocities[joint_ind])[m[K;
+[59.878s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+[59.878s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[59.878s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[59.878s]       |                      [01;36m[K^~~~~~~~~[m[K
+[59.879s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:595:71:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[59.879s]   595 |       [01;35m[Kcommand_interfaces_[acc_ind * num_joints_ + joint_ind].set_value([m[K
+[59.879s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[59.879s]   596 | [01;35m[K        state_commanded.accelerations[joint_ind])[m[K;
+[59.879s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                      
+[59.879s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[59.879s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[59.879s]       |                      [01;36m[K^~~~~~~~~[m[K
+[85.751s] [100%] [32m[1mLinking CXX executable test_admittance_controller[0m
+[88.280s] [100%] Built target test_admittance_controller

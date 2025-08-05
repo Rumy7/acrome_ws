@@ -1,0 +1,70 @@
+[0.064s] Invoking command in '/home/rumy/acrome_ws/build/omni_wheel_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/omni_wheel_drive_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/omni_wheel_drive_controller
+[0.167s] -- The C compiler identification is GNU 13.3.0
+[0.258s] -- The CXX compiler identification is GNU 13.3.0
+[0.286s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.422s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.601s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.607s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.608s] -- Compiler warnings enabled for GNU
+[0.608s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.613s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.824s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.033s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.129s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.160s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.672s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.773s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.780s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.834s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.916s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.945s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.950s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.966s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.985s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.468s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[2.474s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.515s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.568s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[2.579s] -- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[2.634s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.639s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.796s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.801s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.815s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.816s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.835s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.012s] -- Configuring done (2.9s)
+[3.143s] -- Generating done (0.1s)
+[3.143s] -- Build files have been written to: /home/rumy/acrome_ws/build/omni_wheel_drive_controller
+[3.261s] Invoked command in '/home/rumy/acrome_ws/build/omni_wheel_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/omni_wheel_drive_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/omni_wheel_drive_controller
+[3.262s] Invoking command in '/home/rumy/acrome_ws/build/omni_wheel_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/omni_wheel_drive_controller -- -j12 -l12
+[9.849s] [  7%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/omni_wheel_drive_controller/include/omni_wheel_drive_controller/omni_wheel_drive_controller_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/omni_wheel_drive_controller/src/omni_wheel_drive_controller_parameters.yaml `[0m
+[9.849s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[9.849s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[9.850s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[9.850s] [ 35%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/omni_wheel_drive_controller/include/omni_wheel_drive_controller_parameters.hpp[0m
+[9.850s] [ 35%] Built target omni_wheel_drive_controller_parameters
+[9.850s] [ 42%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[9.850s] [ 42%] Built target gmock_main
+[12.662s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.748s] [ 50%] Built target gmock
+[12.775s] [ 57%] [32mBuilding CXX object CMakeFiles/omni_wheel_drive_controller.dir/src/omni_wheel_drive_controller.cpp.o[0m
+[31.391s] [ 64%] [32mBuilding CXX object CMakeFiles/omni_wheel_drive_controller.dir/src/odometry.cpp.o[0m
+[50.478s] [ 71%] [32m[1mLinking CXX shared library libomni_wheel_drive_controller.so[0m
+[51.241s] [ 71%] Built target omni_wheel_drive_controller
+[51.257s] [ 85%] [32mBuilding CXX object CMakeFiles/test_load_omni_wheel_drive_controller.dir/test/test_load_omni_wheel_drive_controller.cpp.o[0m
+[51.257s] [ 85%] [32mBuilding CXX object CMakeFiles/test_omni_wheel_drive_controller.dir/test/test_omni_wheel_drive_controller.cpp.o[0m
+[56.037s] [ 92%] [32m[1mLinking CXX executable test_load_omni_wheel_drive_controller[0m
+[56.261s] [ 92%] Built target test_load_omni_wheel_drive_controller
+[57.219s] [100%] [32m[1mLinking CXX executable test_omni_wheel_drive_controller[0m
+[57.866s] [100%] Built target test_omni_wheel_drive_controller

@@ -1,0 +1,35 @@
+[ 15%] Built target parallel_gripper_action_controller_parameters
+[ 38%] Built target gmock
+[ 53%] Built target gmock_main
+[ 69%] Built target parallel_gripper_action_controller
+[ 84%] Built target test_load_parallel_gripper_action_controllers
+[100%] Built target test_parallel_gripper_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_parameters.hpp
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller//ros_control_plugins.xml
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/include/parallel_gripper_action_controller/parallel_gripper_controller/parallel_gripper_action_controller.hpp
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/include/parallel_gripper_action_controller/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/package_run_dependencies/parallel_gripper_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/parent_prefix_path/parallel_gripper_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/path.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/path.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.bash
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.zsh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.dsv
+-- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/package.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/packages/parallel_gripper_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/parallel_gripper_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/parallel_gripper_controllerConfig.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/parallel_gripper_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/package.xml
+-- Up-to-date: /home/rumy/acrome_ws/install/parallel_gripper_controller/lib/libparallel_gripper_action_controller.so
+-- Up-to-date: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/export_parallel_gripper_action_controllerExport.cmake
+-- Up-to-date: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/export_parallel_gripper_action_controllerExport-noconfig.cmake

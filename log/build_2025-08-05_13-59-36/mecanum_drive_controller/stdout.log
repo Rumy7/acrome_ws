@@ -1,0 +1,71 @@
+-- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rumy/acrome_ws/build/mecanum_drive_controller
+[ 12%] Built target mecanum_drive_controller_parameters
+[ 25%] Built target gmock_main
+[ 43%] Built target gmock
+[ 62%] Built target mecanum_drive_controller
+[ 75%] Built target test_load_mecanum_drive_controller
+[100%] Built target test_mecanum_drive_controller
+[100%] Built target test_mecanum_drive_controller_preceding
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_controller.xml
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+-- Symlinking: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+-- Up-to-date: /home/rumy/acrome_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+-- Up-to-date: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+-- Up-to-date: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake

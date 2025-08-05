@@ -1,0 +1,262 @@
+[0.038s] Invoking command in '/home/rumy/acrome_ws/build/gpio_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/gpio_controllers
+[0.154s] -- The C compiler identification is GNU 13.3.0
+[0.252s] -- The CXX compiler identification is GNU 13.3.0
+[0.276s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.437s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.639s] -- Detecting CXX compile features
+[0.640s] -- Detecting CXX compile features - done
+[0.650s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.650s] -- Compiler warnings enabled for GNU
+[0.650s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.653s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.896s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.093s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.185s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.212s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.646s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.731s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.737s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.781s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.853s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.856s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.888s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.888s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.902s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.917s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.364s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[2.369s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.408s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.412s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.541s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.548s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.559s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.564s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.722s] -- Configuring done (2.7s)
+[2.830s] -- Generating done (0.1s)
+[2.848s] -- Build files have been written to: /home/rumy/acrome_ws/build/gpio_controllers
+[2.890s] Invoked command in '/home/rumy/acrome_ws/build/gpio_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/gpio_controllers
+[2.891s] Invoking command in '/home/rumy/acrome_ws/build/gpio_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/gpio_controllers -- -j12 -l12
+[3.033s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.042s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.052s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.053s] [ 30%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/gpio_controllers/include/gpio_controllers/gpio_command_controller_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller_parameters.yaml `[0m
+[6.220s] [ 38%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/gpio_controllers/include/gpio_command_controller_parameters.hpp[0m
+[6.356s] [ 38%] Built target gpio_command_controller_parameters
+[6.406s] [ 46%] [32mBuilding CXX object CMakeFiles/gpio_controllers.dir/src/gpio_command_controller.cpp.o[0m
+[10.469s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[10.658s] [ 53%] Built target gmock_main
+[15.583s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvoid gpio_controllers::GpioCommandController::[01;32m[Kapply_command[m[K(const gpio_controllers::CmdType&, std::size_t, std::size_t) const[m[K’:
+[15.583s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller.cpp:357:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[15.583s]   355 |     [01;35m[Kcommand_interfaces_map_.at(full_command_interface_name)[m[K
+[15.583s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.583s]   356 | [01;35m[K      .get()[m[K
+[15.583s]       |       [01;35m[K~~~~~~[m[K     
+[15.584s]   357 | [01;35m[K      .set_value(gpio_commands.interface_values[gpio_index].values[command_interface_index])[m[K;
+[15.584s]       |       [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.584s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+[15.584s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[15.584s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/include/gpio_controllers/gpio_command_controller.hpp:24[m[K,
+[15.584s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller.cpp:15[m[K:
+[15.584s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.584s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[15.585s]       |                      [01;36m[K^~~~~~~~~[m[K
+[15.585s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvoid gpio_controllers::GpioCommandController::[01;32m[Kapply_state_value[m[K(gpio_controllers::StateType&, std::size_t, std::size_t) const[m[K’:
+[15.585s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller.cpp:398:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.585s]   398 |       [01;35m[Kstate_interfaces_map_.at(interface_name).get().get_value()[m[K;
+[15.585s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[15.585s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K:
+[15.585s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.585s]    94 |   double [01;36m[Kget_value[m[K() const
+[15.586s]       |          [01;36m[K^~~~~~~~~[m[K
+[21.849s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[22.016s] [ 61%] Built target gmock
+[31.028s] [ 69%] [32m[1mLinking CXX shared library libgpio_controllers.so[0m
+[32.502s] [ 69%] Built target gpio_controllers
+[32.532s] [ 76%] [32mBuilding CXX object CMakeFiles/test_load_gpio_command_controller.dir/test/test_load_gpio_command_controller.cpp.o[0m
+[41.942s] [ 84%] [32m[1mLinking CXX executable test_load_gpio_command_controller[0m
+[42.377s] [ 84%] Built target test_load_gpio_command_controller
+[42.401s] [ 92%] [32mBuilding CXX object CMakeFiles/test_gpio_command_controller.dir/test/test_gpio_command_controller.cpp.o[0m
+[46.878s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+[46.878s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[46.879s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[46.879s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[46.879s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:19[m[K:
+[46.879s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvoid GpioCommandControllerTestSuite::[01;32m[Kassert_default_command_and_state_values[m[K()[m[K’:
+[46.879s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:136:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.879s]   136 |     ASSERT_EQ([01;35m[Kgpio_1_1_dig_cmd.get_value()[m[K, gpio_commands.at(0));
+[46.880s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.880s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:25[m[K,
+[46.880s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[46.880s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/include/gpio_controllers/gpio_command_controller.hpp:24[m[K,
+[46.880s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:20[m[K:
+[46.880s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.880s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.880s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.881s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:137:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.881s]   137 |     ASSERT_EQ([01;35m[Kgpio_1_2_dig_cmd.get_value()[m[K, gpio_commands.at(1));
+[46.881s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.881s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.881s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.881s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.881s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:138:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.881s]   138 |     ASSERT_EQ([01;35m[Kgpio_2_ana_cmd.get_value()[m[K, gpio_commands.at(2));
+[46.882s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.882s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.882s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.882s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.882s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:139:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.882s]   139 |     ASSERT_EQ([01;35m[Kgpio_1_1_dig_state.get_value()[m[K, gpio_states.at(0));
+[46.882s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.882s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.883s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.883s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.883s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:140:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.883s]   140 |     ASSERT_EQ([01;35m[Kgpio_1_2_dig_state.get_value()[m[K, gpio_states.at(1));
+[46.883s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.883s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.883s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.883s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.883s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:141:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.884s]   141 |     ASSERT_EQ([01;35m[Kgpio_2_ana_state.get_value()[m[K, gpio_states.at(2));
+[46.884s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.884s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.884s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.884s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.942s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GpioCommandControllerTestSuite_WhenGivenCommandWithValuesForAllInterfacesThenValueOfInterfacesShouldBeUpdated_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.942s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:495:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.943s]   495 |   ASSERT_EQ([01;35m[Kgpio_1_1_dig_cmd.get_value()[m[K, 0.0);
+[46.943s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.943s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.943s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.943s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.943s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:496:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.944s]   496 |   ASSERT_EQ([01;35m[Kgpio_1_2_dig_cmd.get_value()[m[K, 1.0);
+[46.944s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.944s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.944s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.944s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.944s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:497:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.944s]   497 |   ASSERT_EQ([01;35m[Kgpio_2_ana_cmd.get_value()[m[K, 30.0);
+[46.944s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.944s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.945s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.945s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.948s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GpioCommandControllerTestSuite_WhenGivenCommandInterfacesInDifferentOrderThenValueOfInterfacesShouldBeUpdated_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.948s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:519:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.949s]   519 |   ASSERT_EQ([01;35m[Kgpio_1_1_dig_cmd.get_value()[m[K, 0.0);
+[46.949s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.949s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.949s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.949s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.949s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:520:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.949s]   520 |   ASSERT_EQ([01;35m[Kgpio_1_2_dig_cmd.get_value()[m[K, 1.0);
+[46.950s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.950s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.950s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.950s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.950s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:521:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.950s]   521 |   ASSERT_EQ([01;35m[Kgpio_2_ana_cmd.get_value()[m[K, 30.0);
+[46.950s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.950s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.950s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.951s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.954s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GpioCommandControllerTestSuite_WhenGivenCommandWithOnlyOneGpioThenInterfacesValuesShouldBeUpdated_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.954s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:543:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.954s]   543 |   ASSERT_EQ([01;35m[Kgpio_1_1_dig_cmd.get_value()[m[K, 0.0);
+[46.954s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.954s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.954s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.955s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.955s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:544:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.955s]   544 |   ASSERT_EQ([01;35m[Kgpio_1_2_dig_cmd.get_value()[m[K, 1.0);
+[46.955s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.955s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.955s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.955s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.955s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:545:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.955s]   545 |   ASSERT_EQ([01;35m[Kgpio_2_ana_cmd.get_value()[m[K, gpio_commands[2]);
+[46.955s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.956s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.956s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.956s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.959s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GpioCommandControllerTestSuite_WhenGivenCmdContainsWrongGpioInterfacesOrWrongGpioNameThenCommandInterfacesShouldNotBeUpdated_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.960s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:568:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.960s]   568 |   ASSERT_EQ([01;35m[Kgpio_1_1_dig_cmd.get_value()[m[K, gpio_commands.at(0));
+[46.960s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.960s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.960s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.960s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.961s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:569:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.961s]   569 |   ASSERT_EQ([01;35m[Kgpio_1_2_dig_cmd.get_value()[m[K, gpio_commands.at(1));
+[46.961s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.961s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.961s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.961s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.961s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:570:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.961s]   570 |   ASSERT_EQ([01;35m[Kgpio_2_ana_cmd.get_value()[m[K, gpio_commands.at(2));
+[46.961s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.961s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.962s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.962s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.971s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GpioCommandControllerTestSuite_WhenGivenCommandWithValuesForAllInterfacesViaTopicThenValueOfInterfacesShouldBeUpdated_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.971s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:595:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.971s]   595 |   ASSERT_EQ([01;35m[Kgpio_1_1_dig_cmd.get_value()[m[K, 0.0);
+[46.971s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.971s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.972s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.972s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.972s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:596:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.972s]   596 |   ASSERT_EQ([01;35m[Kgpio_1_2_dig_cmd.get_value()[m[K, 1.0);
+[46.972s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.972s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.972s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.972s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.972s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/gpio_controllers/test/test_gpio_command_controller.cpp:597:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.973s]   597 |   ASSERT_EQ([01;35m[Kgpio_2_ana_cmd.get_value()[m[K, 30.0);
+[46.973s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.973s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.973s]   171 |   double [01;36m[Kget_value[m[K() const
+[46.973s]       |          [01;36m[K^~~~~~~~~[m[K
+[58.175s] [100%] [32m[1mLinking CXX executable test_gpio_command_controller[0m
+[59.846s] [100%] Built target test_gpio_command_controller
+[59.860s] Invoked command in '/home/rumy/acrome_ws/build/gpio_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/gpio_controllers -- -j12 -l12
+[59.867s] Invoking command in '/home/rumy/acrome_ws/build/gpio_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/gpio_controllers
+[63.947s] -- Install configuration: ""
+[63.948s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/include/gpio_controllers
+[63.949s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/include/gpio_controllers/gpio_command_controller_parameters.hpp
+[63.949s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/gpio_controllers_plugin.xml
+[63.949s] -- Up-to-date: /home/rumy/acrome_ws/install/gpio_controllers/include
+[63.950s] -- Up-to-date: /home/rumy/acrome_ws/install/gpio_controllers/include/gpio_controllers
+[63.950s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/include/gpio_controllers/gpio_command_controller.hpp
+[63.950s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/lib/libgpio_controllers.so
+[63.951s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/gpio_controllers/lib/libgpio_controllers.so" to ""
+[63.951s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/environment/library_path.sh
+[63.953s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/environment/library_path.dsv
+[63.954s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/ament_index/resource_index/package_run_dependencies/gpio_controllers
+[63.954s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/ament_index/resource_index/parent_prefix_path/gpio_controllers
+[63.954s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/environment/ament_prefix_path.sh
+[63.955s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/environment/ament_prefix_path.dsv
+[63.955s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/environment/path.sh
+[63.956s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/environment/path.dsv
+[63.956s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/local_setup.bash
+[63.957s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/local_setup.sh
+[63.957s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/local_setup.zsh
+[63.957s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/local_setup.dsv
+[63.958s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/package.dsv
+[63.958s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/ament_index/resource_index/packages/gpio_controllers
+[63.959s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gpio_controllers
+[63.959s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.959s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.960s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[63.960s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/cmake/gpio_controllersConfig.cmake
+[63.960s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/cmake/gpio_controllersConfig-version.cmake
+[63.960s] -- Installing: /home/rumy/acrome_ws/install/gpio_controllers/share/gpio_controllers/package.xml
+[64.022s] Invoked command in '/home/rumy/acrome_ws/build/gpio_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/gpio_controllers

@@ -1,0 +1,176 @@
+[0.046s] Invoking command in '/home/rumy/acrome_ws/build/position_controllers': CMAKE_PREFIX_PATH=/home/rumy/acrome_ws/install/forward_command_controller:/home/rumy/acrome_ws/install/steering_controllers_library:/home/rumy/acrome_ws/install/mecanum_drive_controller:/home/rumy/acrome_ws/install/joint_state_broadcaster:/home/rumy/acrome_ws/install/imu_sensor_broadcaster:/home/rumy/acrome_ws/install/gripper_controllers:/home/rumy/acrome_ws/install/gps_sensor_broadcaster:/home/rumy/acrome_ws/install/gpio_controllers:/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster:/home/rumy/acrome_ws/install/diff_drive_controller:/home/rumy/acrome_ws/install/acrome_mini_robot:/home/rumy/acrome_ws/src/acrome_mini_robot/install/acrome_mini_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rumy/acrome_ws/install/forward_command_controller/lib:/home/rumy/acrome_ws/install/steering_controllers_library/lib:/home/rumy/acrome_ws/install/mecanum_drive_controller/lib:/home/rumy/acrome_ws/install/joint_state_broadcaster/lib:/home/rumy/acrome_ws/install/imu_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/gripper_controllers/lib:/home/rumy/acrome_ws/install/gps_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/gpio_controllers/lib:/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/diff_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/position_controllers
+[1.500s] -- The C compiler identification is GNU 13.3.0
+[1.501s] -- The CXX compiler identification is GNU 13.3.0
+[1.501s] -- Detecting C compiler ABI info
+[1.501s] -- Detecting C compiler ABI info - done
+[1.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.501s] -- Detecting C compile features
+[1.501s] -- Detecting C compile features - done
+[1.501s] -- Detecting CXX compiler ABI info
+[1.501s] -- Detecting CXX compiler ABI info - done
+[1.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.502s] -- Detecting CXX compile features
+[1.502s] -- Detecting CXX compile features - done
+[1.502s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[1.502s] -- Compiler warnings enabled for GNU
+[1.502s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.502s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.502s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.503s] -- Found forward_command_controller: 4.30.1 (/home/rumy/acrome_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[1.503s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.503s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.650s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.656s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.874s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.921s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.173s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[3.179s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[3.309s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[3.315s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.329s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.330s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.479s] -- Configuring done (3.4s)
+[3.611s] -- Generating done (0.1s)
+[3.631s] -- Build files have been written to: /home/rumy/acrome_ws/build/position_controllers
+[3.656s] Invoked command in '/home/rumy/acrome_ws/build/position_controllers' returned '0': CMAKE_PREFIX_PATH=/home/rumy/acrome_ws/install/forward_command_controller:/home/rumy/acrome_ws/install/steering_controllers_library:/home/rumy/acrome_ws/install/mecanum_drive_controller:/home/rumy/acrome_ws/install/joint_state_broadcaster:/home/rumy/acrome_ws/install/imu_sensor_broadcaster:/home/rumy/acrome_ws/install/gripper_controllers:/home/rumy/acrome_ws/install/gps_sensor_broadcaster:/home/rumy/acrome_ws/install/gpio_controllers:/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster:/home/rumy/acrome_ws/install/diff_drive_controller:/home/rumy/acrome_ws/install/acrome_mini_robot:/home/rumy/acrome_ws/src/acrome_mini_robot/install/acrome_mini_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rumy/acrome_ws/install/forward_command_controller/lib:/home/rumy/acrome_ws/install/steering_controllers_library/lib:/home/rumy/acrome_ws/install/mecanum_drive_controller/lib:/home/rumy/acrome_ws/install/joint_state_broadcaster/lib:/home/rumy/acrome_ws/install/imu_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/gripper_controllers/lib:/home/rumy/acrome_ws/install/gps_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/gpio_controllers/lib:/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/diff_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/position_controllers
+[3.658s] Invoking command in '/home/rumy/acrome_ws/build/position_controllers': CMAKE_PREFIX_PATH=/home/rumy/acrome_ws/install/forward_command_controller:/home/rumy/acrome_ws/install/steering_controllers_library:/home/rumy/acrome_ws/install/mecanum_drive_controller:/home/rumy/acrome_ws/install/joint_state_broadcaster:/home/rumy/acrome_ws/install/imu_sensor_broadcaster:/home/rumy/acrome_ws/install/gripper_controllers:/home/rumy/acrome_ws/install/gps_sensor_broadcaster:/home/rumy/acrome_ws/install/gpio_controllers:/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster:/home/rumy/acrome_ws/install/diff_drive_controller:/home/rumy/acrome_ws/install/acrome_mini_robot:/home/rumy/acrome_ws/src/acrome_mini_robot/install/acrome_mini_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rumy/acrome_ws/install/forward_command_controller/lib:/home/rumy/acrome_ws/install/steering_controllers_library/lib:/home/rumy/acrome_ws/install/mecanum_drive_controller/lib:/home/rumy/acrome_ws/install/joint_state_broadcaster/lib:/home/rumy/acrome_ws/install/imu_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/gripper_controllers/lib:/home/rumy/acrome_ws/install/gps_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/gpio_controllers/lib:/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/lib:/home/rumy/acrome_ws/install/diff_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/rumy/acrome_ws/build/position_controllers -- -j12 -l12
+[3.814s] [  9%] [32mBuilding CXX object CMakeFiles/position_controllers.dir/src/joint_group_position_controller.cpp.o[0m
+[3.816s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.832s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.838s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.657s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.764s] [ 45%] Built target gmock_main
+[12.874s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.969s] [ 54%] Built target gmock
+[13.204s] [ 63%] [32m[1mLinking CXX shared library libposition_controllers.so[0m
+[13.980s] [ 63%] Built target position_controllers
+[14.009s] [ 72%] [32mBuilding CXX object CMakeFiles/test_joint_group_position_controller.dir/test/test_joint_group_position_controller.cpp.o[0m
+[14.009s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_position_controller.dir/test/test_load_joint_group_position_controller.cpp.o[0m
+[18.274s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+[18.274s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[18.274s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[18.274s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[18.274s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.hpp:18[m[K,
+[18.275s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:23[m[K:
+[18.275s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupPositionControllerTest_CommandSuccessTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[18.275s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:109:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.275s]   109 |   ASSERT_EQ([01;35m[Kjoint_1_pos_cmd_.get_value()[m[K, 1.1);
+[18.275s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.275s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:24[m[K,
+[18.275s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:20[m[K:
+[18.275s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.275s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.276s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.276s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:110:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.276s]   110 |   ASSERT_EQ([01;35m[Kjoint_2_pos_cmd_.get_value()[m[K, 2.1);
+[18.276s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.276s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.276s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.276s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.276s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:111:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.277s]   111 |   ASSERT_EQ([01;35m[Kjoint_3_pos_cmd_.get_value()[m[K, 3.1);
+[18.277s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.280s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.280s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.281s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.281s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:124:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.281s]   124 |   ASSERT_EQ([01;35m[Kjoint_1_pos_cmd_.get_value()[m[K, 10.0);
+[18.281s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.281s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.281s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.282s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.285s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:125:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.286s]   125 |   ASSERT_EQ([01;35m[Kjoint_2_pos_cmd_.get_value()[m[K, 20.0);
+[18.286s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.286s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.286s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.286s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.286s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:126:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.286s]   126 |   ASSERT_EQ([01;35m[Kjoint_3_pos_cmd_.get_value()[m[K, 30.0);
+[18.286s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.287s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.287s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.287s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.287s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupPositionControllerTest_WrongCommandCheckTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[18.287s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:146:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.287s]   146 |   ASSERT_EQ([01;35m[Kjoint_1_pos_cmd_.get_value()[m[K, 1.1);
+[18.288s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.288s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.288s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.288s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.289s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:147:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.289s]   147 |   ASSERT_EQ([01;35m[Kjoint_2_pos_cmd_.get_value()[m[K, 2.1);
+[18.290s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.290s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.290s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.290s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.290s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:148:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.291s]   148 |   ASSERT_EQ([01;35m[Kjoint_3_pos_cmd_.get_value()[m[K, 3.1);
+[18.291s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.294s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.294s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.294s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.294s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupPositionControllerTest_NoCommandCheckTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[18.294s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:163:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.294s]   163 |   ASSERT_EQ([01;35m[Kjoint_1_pos_cmd_.get_value()[m[K, 1.1);
+[18.295s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.295s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.295s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.295s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.296s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:164:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.296s]   164 |   ASSERT_EQ([01;35m[Kjoint_2_pos_cmd_.get_value()[m[K, 2.1);
+[18.296s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.297s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.297s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.297s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.297s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:165:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.299s]   165 |   ASSERT_EQ([01;35m[Kjoint_3_pos_cmd_.get_value()[m[K, 3.1);
+[18.300s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.300s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.300s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.300s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.300s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:[m[K In member function ‘[01m[Kvirtual void JointGroupPositionControllerTest_CommandCallbackTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[18.300s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:174:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.301s]   174 |   ASSERT_EQ([01;35m[Kjoint_1_pos_cmd_.get_value()[m[K, 1.1);
+[18.301s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.301s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.301s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.301s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.302s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:175:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.302s]   175 |   ASSERT_EQ([01;35m[Kjoint_2_pos_cmd_.get_value()[m[K, 2.1);
+[18.303s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.303s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.303s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.303s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.307s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:176:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.307s]   176 |   ASSERT_EQ([01;35m[Kjoint_3_pos_cmd_.get_value()[m[K, 3.1);
+[18.307s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.307s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.307s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.307s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.315s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:207:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.315s]   207 |   ASSERT_EQ([01;35m[Kjoint_1_pos_cmd_.get_value()[m[K, 10.0);
+[18.315s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.315s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.316s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.316s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.316s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:208:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.316s]   208 |   ASSERT_EQ([01;35m[Kjoint_2_pos_cmd_.get_value()[m[K, 20.0);
+[18.317s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.317s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.317s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.317s]       |          [01;36m[K^~~~~~~~~[m[K
+[18.318s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/position_controllers/test/test_joint_group_position_controller.cpp:209:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.318s]   209 |   ASSERT_EQ([01;35m[Kjoint_3_pos_cmd_.get_value()[m[K, 30.0);
+[18.322s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[18.322s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.322s]   171 |   double [01;36m[Kget_value[m[K() const
+[18.322s]       |          [01;36m[K^~~~~~~~~[m[K
+[22.888s] [ 90%] [32m[1mLinking CXX executable test_joint_group_position_controller[0m
+[22.946s] [100%] [32m[1mLinking CXX executable test_load_joint_group_position_controller[0m
+[23.466s] [100%] Built target test_load_joint_group_position_controller
+[23.650s] [100%] Built target test_joint_group_position_controller

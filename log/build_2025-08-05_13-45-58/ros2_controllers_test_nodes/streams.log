@@ -1,0 +1,41 @@
+[2.209s] Invoking command in '/home/rumy/acrome_ws/build/ros2_controllers_test_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build
+[9.530s] running develop
+[9.530s] Removing /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[9.539s] Invoked command in '/home/rumy/acrome_ws/build/ros2_controllers_test_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build
+[9.541s] Invoking command in '/home/rumy/acrome_ws/src/ros2_controllers/ros2_controllers_test_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build install --record /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data --force
+[10.122s] running egg_info
+[10.183s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[10.183s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[10.184s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[10.184s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[10.184s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[10.253s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[10.259s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[10.259s] running build
+[10.259s] running build_py
+[10.259s] creating /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build
+[10.259s] creating /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib
+[10.260s] creating /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[10.260s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[10.261s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[10.261s] copying ros2_controllers_test_nodes/__init__.py -> /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[10.265s] running install
+[10.294s] running install_lib
+[10.335s] creating /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[10.335s] copying /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[10.336s] copying /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[10.336s] copying /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[10.337s] byte-compiling /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-312.pyc
+[10.341s] byte-compiling /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-312.pyc
+[10.343s] byte-compiling /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-312.pyc
+[10.344s] running install_data
+[10.344s] copying resource/ros2_controllers_test_nodes -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[10.347s] copying package.xml -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[10.348s] copying test/rrbot_joint_trajectory_publisher.yaml -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[10.351s] copying test/rrbot_forward_position_publisher.yaml -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[10.352s] running install_egg_info
+[10.432s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes-4.30.1-py3.12.egg-info
+[10.435s] running install_scripts
+[10.733s] Installing publisher_forward_position_controller script to /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[10.734s] Installing publisher_joint_trajectory_controller script to /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[10.734s] writing list of installed files to '/home/rumy/acrome_ws/build/ros2_controllers_test_nodes/install.log'

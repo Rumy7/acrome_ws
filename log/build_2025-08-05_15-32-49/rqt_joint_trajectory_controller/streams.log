@@ -1,0 +1,21 @@
+[1.103s] Invoking command in '/home/rumy/acrome_ws/src/ros2_controllers/rqt_joint_trajectory_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build install --record /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data
+[1.362s] running egg_info
+[1.385s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[1.385s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[1.385s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[1.385s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[1.385s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[1.428s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[1.429s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[1.429s] running build
+[1.429s] running build_py
+[1.430s] running install
+[1.435s] running install_lib
+[1.458s] running install_data
+[1.458s] running install_egg_info
+[1.481s] removing '/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller-4.30.1-py3.12.egg-info' (and everything under it)
+[1.482s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller-4.30.1-py3.12.egg-info
+[1.482s] running install_scripts
+[1.613s] Installing rqt_joint_trajectory_controller script to /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[1.614s] writing list of installed files to '/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/install.log'
+[1.641s] Invoked command in '/home/rumy/acrome_ws/src/ros2_controllers/rqt_joint_trajectory_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build install --record /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data

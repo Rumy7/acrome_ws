@@ -1,0 +1,244 @@
+[0.089s] Invoking command in '/home/rumy/acrome_ws/build/bicycle_steering_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/bicycle_steering_controller
+[1.221s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[1.221s] -- Compiler warnings enabled for GNU
+[1.221s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.221s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.224s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.224s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.224s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.225s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.225s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.225s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.225s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.225s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.225s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.226s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.226s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.228s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.239s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.265s] -- Found steering_controllers_library: 4.30.1 (/home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[1.384s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.388s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.453s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.454s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.571s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.571s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.577s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.577s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.758s] -- Configuring done (1.7s)
+[1.883s] -- Generating done (0.1s)
+[1.910s] -- Build files have been written to: /home/rumy/acrome_ws/build/bicycle_steering_controller
+[1.950s] Invoked command in '/home/rumy/acrome_ws/build/bicycle_steering_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/bicycle_steering_controller
+[1.950s] Invoking command in '/home/rumy/acrome_ws/build/bicycle_steering_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/bicycle_steering_controller -- -j12 -l12
+[2.421s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.422s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.422s] [ 20%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.yaml `[0m
+[2.422s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.266s] [ 33%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/bicycle_steering_controller/include/bicycle_steering_controller_parameters.hpp[0m
+[3.293s] [ 33%] Built target bicycle_steering_controller_parameters
+[3.346s] [ 40%] [32mBuilding CXX object CMakeFiles/bicycle_steering_controller.dir/src/bicycle_steering_controller.cpp.o[0m
+[4.001s] [ 46%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.099s] [ 46%] Built target gmock_main
+[10.159s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool bicycle_steering_controller::BicycleSteeringController::[01;32m[Kupdate_odometry[m[K(const rclcpp::Duration&)[m[K’:
+[10.160s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:73:90:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.160s]    73 | tion_wheel_value = [01;35m[Kstate_interfaces_[STATE_TRACTION_WHEEL].get_value()[m[K;
+[10.160s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.160s] 
+[10.160s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[10.160s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[10.160s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/steering_controllers_library/include/steering_controllers_library/steering_controllers_library.hpp:23[m[K,
+[10.160s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller.hpp:24[m[K,
+[10.161s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:15[m[K:
+[10.161s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.161s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.161s]       |          [01;36m[K^~~~~~~~~[m[K
+[10.161s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/src/bicycle_steering_controller.cpp:74:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.161s]    74 | le steering_position = [01;35m[Kstate_interfaces_[STATE_STEER_AXIS].get_value()[m[K;
+[10.165s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.165s] 
+[10.165s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.165s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.165s]       |          [01;36m[K^~~~~~~~~[m[K
+[10.989s] [ 53%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.179s] [ 53%] Built target gmock
+[11.244s] [ 60%] [32mBuilding CXX object CMakeFiles/test_load_bicycle_steering_controller.dir/test/test_load_bicycle_steering_controller.cpp.o[0m
+[13.355s] [ 66%] [32m[1mLinking CXX shared library libbicycle_steering_controller.so[0m
+[14.502s] [ 66%] Built target bicycle_steering_controller
+[14.535s] [ 73%] [32mBuilding CXX object CMakeFiles/test_bicycle_steering_controller.dir/test/test_bicycle_steering_controller.cpp.o[0m
+[14.540s] [ 80%] [32mBuilding CXX object CMakeFiles/test_bicycle_steering_controller_preceding.dir/test/test_bicycle_steering_controller_preceding.cpp.o[0m
+[19.292s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+[19.292s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+[19.292s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+[19.292s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+[19.292s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+[19.292s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[19.292s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[19.293s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[19.293s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.hpp:18[m[K,
+[19.293s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:20[m[K:
+[19.293s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_reactivate_success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[19.293s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:129:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.297s]   129 | SERT_TRUE(std::isnan([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K));
+[19.297s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.297s] 
+[19.297s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1493:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[19.297s]  1493 |           ::testing::AssertionResult([01;36m[Kexpression[m[K))                     \
+[19.298s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[19.298s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1815:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_TRUE[m[K’
+[19.298s]  1815 | #define ASSERT_TRUE(condition) [01;36m[KGTEST_ASSERT_TRUE[m[K(condition)
+[19.298s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[19.298s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:129:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[19.298s]   129 |   [01;36m[KASSERT_TRUE[m[K(std::isnan(controller_->command_interfaces_[0].get_value()));
+[19.298s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.298s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+[19.298s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[19.299s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/steering_controllers_library/include/steering_controllers_library/steering_controllers_library.hpp:23[m[K,
+[19.299s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller.hpp:24[m[K,
+[19.299s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.hpp:26[m[K:
+[19.299s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.299s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.299s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.299s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:131:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.299s]   131 | SERT_TRUE(std::isnan([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K));
+[19.300s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.300s] 
+[19.300s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1493:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[19.300s]  1493 |           ::testing::AssertionResult([01;36m[Kexpression[m[K))                     \
+[19.300s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[19.300s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1815:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_TRUE[m[K’
+[19.300s]  1815 | #define ASSERT_TRUE(condition) [01;36m[KGTEST_ASSERT_TRUE[m[K(condition)
+[19.300s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[19.300s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:131:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[19.301s]   131 |   [01;36m[KASSERT_TRUE[m[K(std::isnan(controller_->command_interfaces_[0].get_value()));
+[19.301s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.301s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.301s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.301s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.301s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K:
+[19.301s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_test_update_logic_Test::[01;32m[KTestBody[m[K()[m[K’:
+[19.305s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:161:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.305s]   161 | [01;35m[Kntroller_->command_interfaces_[CMD_TRACTION_WHEEL].get_value()[m[K, 0.1 / 0.45, COMMON_THRESHOLD);
+[19.305s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.305s] 
+[19.305s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[19.306s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[19.306s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[19.306s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[19.306s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[19.306s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.306s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[19.306s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[19.306s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.306s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:160:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[19.307s]   160 |   [01;36m[KEXPECT_NEAR[m[K(
+[19.307s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.307s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.307s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.307s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.307s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:163:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.307s]   163 |  [01;35m[Kcontroller_->command_interfaces_[CMD_STEER_WHEEL].get_value()[m[K, 1.4179821977774734,
+[19.307s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.308s] 
+[19.308s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[19.308s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[19.308s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[19.308s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[19.308s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[19.308s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.313s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[19.313s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[19.313s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.313s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:162:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[19.313s]   162 |   [01;36m[KEXPECT_NEAR[m[K(
+[19.313s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.313s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.317s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.317s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.317s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_test_update_logic_chained_Test::[01;32m[KTestBody[m[K()[m[K’:
+[19.317s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:193:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.317s]   193 | [01;35m[Kntroller_->command_interfaces_[CMD_TRACTION_WHEEL].get_value()[m[K, 0.1 / 0.45, COMMON_THRESHOLD);
+[19.317s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.317s] 
+[19.318s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[19.318s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[19.318s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[19.318s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[19.318s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[19.318s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.318s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[19.318s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[19.319s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.319s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:192:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[19.319s]   192 |   [01;36m[KEXPECT_NEAR[m[K(
+[19.319s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.319s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.319s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.319s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.324s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:195:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.324s]   195 |  [01;35m[Kcontroller_->command_interfaces_[CMD_STEER_WHEEL].get_value()[m[K, 1.4179821977774734,
+[19.324s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.324s] 
+[19.324s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[19.324s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[19.324s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[19.325s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[19.325s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[19.325s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.325s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[19.325s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[19.325s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.325s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:194:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[19.325s]   194 |   [01;36m[KEXPECT_NEAR[m[K(
+[19.325s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.326s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.326s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.326s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.326s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:[m[K In member function ‘[01m[Kvirtual void BicycleSteeringControllerTest_receive_message_and_publish_updated_status_Test::[01;32m[KTestBody[m[K()[m[K’:
+[19.326s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:248:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.326s]   248 | [01;35m[Kntroller_->command_interfaces_[CMD_TRACTION_WHEEL].get_value()[m[K, 0.1 / 0.45, COMMON_THRESHOLD);
+[19.326s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.327s] 
+[19.327s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[19.327s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[19.327s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[19.327s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[19.327s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[19.327s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.330s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[19.331s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[19.331s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.331s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:247:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[19.331s]   247 |   [01;36m[KEXPECT_NEAR[m[K(
+[19.331s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.332s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.332s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.332s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.332s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:250:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.332s]   250 |  [01;35m[Kcontroller_->command_interfaces_[CMD_STEER_WHEEL].get_value()[m[K, 1.4179821977774734,
+[19.332s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.332s] 
+[19.332s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[19.332s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[19.333s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[19.333s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[19.333s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[19.333s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.333s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[19.333s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[19.333s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.338s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/bicycle_steering_controller/test/test_bicycle_steering_controller.cpp:249:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[19.338s]   249 |   [01;36m[KEXPECT_NEAR[m[K(
+[19.338s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[19.338s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.338s]   134 |   double [01;36m[Kget_value[m[K() const
+[19.338s]       |          [01;36m[K^~~~~~~~~[m[K
+[20.696s] [ 86%] [32m[1mLinking CXX executable test_load_bicycle_steering_controller[0m
+[21.224s] [ 86%] Built target test_load_bicycle_steering_controller
+[24.243s] [ 93%] [32m[1mLinking CXX executable test_bicycle_steering_controller_preceding[0m
+[25.216s] [ 93%] Built target test_bicycle_steering_controller_preceding
+[28.443s] [100%] [32m[1mLinking CXX executable test_bicycle_steering_controller[0m
+[29.012s] [100%] Built target test_bicycle_steering_controller

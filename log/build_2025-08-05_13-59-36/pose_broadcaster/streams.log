@@ -1,0 +1,70 @@
+[0.034s] Invoking command in '/home/rumy/acrome_ws/build/pose_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/pose_broadcaster -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/pose_broadcaster
+[1.545s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[1.546s] -- Compiler warnings enabled for GNU
+[1.546s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.546s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.546s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.546s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.547s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.547s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.547s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.547s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.547s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.548s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.548s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.548s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.548s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.548s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.548s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.548s] -- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.548s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.548s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.549s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.549s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.549s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.549s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.549s] -- Configuring done (1.4s)
+[1.549s] -- Generating done (0.1s)
+[1.567s] -- Build files have been written to: /home/rumy/acrome_ws/build/pose_broadcaster
+[1.604s] Invoked command in '/home/rumy/acrome_ws/build/pose_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/pose_broadcaster -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/pose_broadcaster
+[1.604s] Invoking command in '/home/rumy/acrome_ws/build/pose_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/pose_broadcaster -- -j12 -l12
+[1.814s] [ 15%] Built target pose_broadcaster_parameters
+[1.814s] [ 38%] Built target gmock
+[1.815s] [ 53%] Built target gmock_main
+[1.822s] [ 69%] Built target pose_broadcaster
+[1.896s] [ 84%] Built target test_pose_broadcaster
+[1.903s] [100%] Built target test_load_pose_broadcaster
+[1.934s] Invoked command in '/home/rumy/acrome_ws/build/pose_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/pose_broadcaster -- -j12 -l12
+[1.935s] Invoking command in '/home/rumy/acrome_ws/build/pose_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/pose_broadcaster
+[1.994s] -- Install configuration: ""
+[1.994s] -- Execute custom install script
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/include/pose_broadcaster/pose_broadcaster_parameters.hpp
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster//pose_broadcaster.xml
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/include/pose_broadcaster/pose_broadcaster/pose_broadcaster.hpp
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/environment/library_path.sh
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/environment/library_path.dsv
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/ament_index/resource_index/package_run_dependencies/pose_broadcaster
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/ament_index/resource_index/parent_prefix_path/pose_broadcaster
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/environment/ament_prefix_path.sh
+[1.994s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/environment/ament_prefix_path.dsv
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/environment/path.sh
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/environment/path.dsv
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.bash
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.sh
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.zsh
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/local_setup.dsv
+[1.995s] -- Symlinking: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/package.dsv
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/ament_index/resource_index/packages/pose_broadcaster
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pose_broadcaster
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/pose_broadcasterConfig.cmake
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/pose_broadcasterConfig-version.cmake
+[1.995s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/package.xml
+[1.995s] -- Up-to-date: /home/rumy/acrome_ws/install/pose_broadcaster/lib/libpose_broadcaster.so
+[1.996s] -- Up-to-date: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport.cmake
+[1.996s] -- Up-to-date: /home/rumy/acrome_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport-noconfig.cmake
+[2.045s] Invoked command in '/home/rumy/acrome_ws/build/pose_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/pose_broadcaster

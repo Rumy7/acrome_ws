@@ -1,0 +1,320 @@
+[0.027s] Invoking command in '/home/rumy/acrome_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/mecanum_drive_controller
+[2.905s] -- The C compiler identification is GNU 13.3.0
+[2.905s] -- The CXX compiler identification is GNU 13.3.0
+[2.905s] -- Detecting C compiler ABI info
+[2.905s] -- Detecting C compiler ABI info - done
+[2.905s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.905s] -- Detecting C compile features
+[2.905s] -- Detecting C compile features - done
+[2.906s] -- Detecting CXX compiler ABI info
+[2.906s] -- Detecting CXX compiler ABI info - done
+[2.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.906s] -- Detecting CXX compile features
+[2.906s] -- Detecting CXX compile features - done
+[2.906s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[2.906s] -- Compiler warnings enabled for GNU
+[2.906s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[2.906s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.909s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.909s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[2.909s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.909s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.909s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.909s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.910s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.910s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.910s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.910s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.910s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.910s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.910s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[2.911s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.911s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.911s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.911s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[2.911s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.911s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.911s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.911s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.911s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.912s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.912s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.912s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.912s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.912s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.999s] -- Configuring done (3.0s)
+[3.134s] -- Generating done (0.1s)
+[3.160s] -- Build files have been written to: /home/rumy/acrome_ws/build/mecanum_drive_controller
+[3.193s] Invoked command in '/home/rumy/acrome_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/mecanum_drive_controller
+[3.197s] Invoking command in '/home/rumy/acrome_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/mecanum_drive_controller -- -j12 -l12
+[3.477s] [  6%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.yaml `[0m
+[3.477s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.477s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.477s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[11.061s] [ 31%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[11.157s] [ 31%] Built target gmock_main
+[11.187s] [ 37%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp[0m
+[11.237s] [ 37%] Built target mecanum_drive_controller_parameters
+[11.310s] [ 43%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[11.328s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[19.342s] [ 56%] [32m[1mLinking CXX static library libgmock.a[0m
+[19.541s] [ 56%] Built target gmock
+[19.603s] [ 62%] [32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o[0m
+[24.016s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type mecanum_drive_controller::MecanumDriveController::[01;32m[Kupdate_and_write_commands[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[24.016s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:403:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.016s]   403 | wheel_front_left_state_vel = [01;35m[Kstate_interfaces_[FRONT_LEFT].get_value()[m[K;
+[24.016s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.017s] 
+[24.017s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[24.017s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[24.017s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+[24.017s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[24.017s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.017s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.017s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.019s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:404:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.019s]   404 | eel_front_right_state_vel = [01;35m[Kstate_interfaces_[FRONT_RIGHT].get_value()[m[K;
+[24.019s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.019s] 
+[24.019s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.019s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.019s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.020s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:405:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.020s]   405 | wheel_rear_right_state_vel = [01;35m[Kstate_interfaces_[REAR_RIGHT].get_value()[m[K;
+[24.020s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.020s] 
+[24.020s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.020s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.020s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.020s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:406:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.025s]   406 | e wheel_rear_left_state_vel = [01;35m[Kstate_interfaces_[REAR_LEFT].get_value()[m[K;
+[24.025s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.025s] 
+[24.025s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.025s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.026s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.027s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:526:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.027s]   526 |       [01;35m[Kstate_interfaces_[FRONT_LEFT].get_value()[m[K;
+[24.027s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.027s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.027s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.027s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.027s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:528:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.027s]   528 |       [01;35m[Kstate_interfaces_[FRONT_RIGHT].get_value()[m[K;
+[24.027s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.028s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.028s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.028s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.028s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:530:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.028s]   530 |       [01;35m[Kstate_interfaces_[REAR_RIGHT].get_value()[m[K;
+[24.028s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.028s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.028s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.033s]       |          [01;36m[K^~~~~~~~~[m[K
+[24.033s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:532:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.033s]   532 |       [01;35m[Kstate_interfaces_[REAR_LEFT].get_value()[m[K;
+[24.033s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.033s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.033s]    94 |   double [01;36m[Kget_value[m[K() const
+[24.034s]       |          [01;36m[K^~~~~~~~~[m[K
+[32.540s] [ 68%] [32m[1mLinking CXX executable test_load_mecanum_drive_controller[0m
+[33.389s] [ 68%] Built target test_load_mecanum_drive_controller
+[39.676s] [ 75%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[41.232s] [ 75%] Built target mecanum_drive_controller
+[41.261s] [ 81%] [32mBuilding CXX object CMakeFiles/test_mecanum_drive_controller.dir/test/test_mecanum_drive_controller.cpp.o[0m
+[46.155s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+[46.155s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[46.156s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[46.156s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[46.156s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.hpp:26[m[K,
+[46.159s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:15[m[K:
+[46.159s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual void MecanumDriveControllerTest_when_controller_is_reactivated_expect_cmd_itfs_not_set_and_update_success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.159s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:342:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.159s]   342 | ([01;35m[Kcontroller_->command_interfaces_[NR_CMD_ITFS - 4].get_value()[m[K, 101.101);
+[46.159s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.159s] 
+[46.159s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[46.160s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[46.160s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[46.160s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[46.160s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[46.160s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.160s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[46.160s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[46.160s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.161s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[46.161s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[46.161s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[46.161s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:342:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[46.161s]   342 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[NR_CMD_ITFS - 4].get_value(), 101.101);
+[46.161s]       |   [01;36m[K^~~~~~~~~[m[K
+[46.161s] In file included from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.hpp:27[m[K:
+[46.161s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.167s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.167s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.167s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+[46.167s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+[46.167s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+[46.167s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+[46.167s]                  from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K:
+[46.168s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:344:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.168s]   344 | :isnan([01;35m[Kcontroller_->command_interfaces_[NR_CMD_ITFS - 4].get_value()[m[K));
+[46.168s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.168s] 
+[46.168s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1493:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[46.168s]  1493 |           ::testing::AssertionResult([01;36m[Kexpression[m[K))                     \
+[46.168s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[46.168s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1815:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_TRUE[m[K’
+[46.169s]  1815 | #define ASSERT_TRUE(condition) [01;36m[KGTEST_ASSERT_TRUE[m[K(condition)
+[46.169s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.169s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:344:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[46.169s]   344 |   [01;36m[KASSERT_TRUE[m[K(std::isnan(controller_->command_interfaces_[NR_CMD_ITFS - 4].get_value()));
+[46.169s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[46.169s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.169s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.169s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.170s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:346:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.170s]   346 | :isnan([01;35m[Kcontroller_->command_interfaces_[NR_CMD_ITFS - 4].get_value()[m[K));
+[46.170s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.170s] 
+[46.170s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1493:38:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[46.170s]  1493 |           ::testing::AssertionResult([01;36m[Kexpression[m[K))                     \
+[46.170s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[46.170s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1815:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_TRUE[m[K’
+[46.174s]  1815 | #define ASSERT_TRUE(condition) [01;36m[KGTEST_ASSERT_TRUE[m[K(condition)
+[46.174s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.174s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:346:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[46.174s]   346 |   [01;36m[KASSERT_TRUE[m[K(std::isnan(controller_->command_interfaces_[NR_CMD_ITFS - 4].get_value()));
+[46.174s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[46.175s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.175s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.175s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.185s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual void MecanumDriveControllerTest_when_ref_msg_old_expect_cmnd_itfs_set_to_zero_otherwise_to_valid_cmnds_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.186s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:564:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.186s]   564 |     EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[i].get_value()[m[K, 0.0);
+[46.186s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.186s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[46.186s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[46.186s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[46.187s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[46.187s]   144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[46.188s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.188s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[46.188s]  1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[46.188s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.188s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:564:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[46.188s]   564 |     [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[i].get_value(), 0.0);
+[46.188s]       |     [01;36m[K^~~~~~~~~[m[K
+[46.189s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.189s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.189s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.192s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:603:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.192s]   603 |     EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[i].get_value()[m[K, 3.0);
+[46.194s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.194s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[46.194s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[46.194s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[46.194s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[46.194s]   144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[46.194s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.195s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[46.195s]  1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[46.195s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.195s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:603:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[46.195s]   603 |     [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[i].get_value(), 3.0);
+[46.195s]       |     [01;36m[K^~~~~~~~~[m[K
+[46.195s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.195s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.196s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.208s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual void MecanumDriveControllerTest_when_controller_in_chainable_mode_expect_receiving_commands_from_reference_interfaces_directly_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.208s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:662:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.208s]   662 |     EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[i].get_value()[m[K, 6.0);
+[46.208s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.208s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[46.208s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[46.208s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[46.209s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[46.209s]   144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[46.209s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.209s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[46.209s]  1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[46.209s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[46.209s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:662:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[46.209s]   662 |     [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[i].get_value(), 6.0);
+[46.210s]       |     [01;36m[K^~~~~~~~~[m[K
+[46.210s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.210s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.210s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.226s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual void MecanumDriveControllerTest_SideToSideAndRotationOdometryTest_Test::[01;32m[KTestBody[m[K()[m[K’:
+[46.226s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:813:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.226s]   813 | es_[fl_index] = [01;35m[Kcontroller_->command_interfaces_[fl_index].get_value()[m[K;
+[46.226s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.226s] 
+[46.226s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.226s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.227s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.227s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:814:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.227s]   814 | es_[fr_index] = [01;35m[Kcontroller_->command_interfaces_[fr_index].get_value()[m[K;
+[46.227s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.227s] 
+[46.227s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.227s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.227s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.227s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:815:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.227s]   815 | es_[rl_index] = [01;35m[Kcontroller_->command_interfaces_[rl_index].get_value()[m[K;
+[46.228s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.228s] 
+[46.228s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.228s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.228s]       |          [01;36m[K^~~~~~~~~[m[K
+[46.228s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:816:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[46.228s]   816 | es_[rr_index] = [01;35m[Kcontroller_->command_interfaces_[rr_index].get_value()[m[K;
+[46.228s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[46.228s] 
+[46.229s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[46.229s]   134 |   double [01;36m[Kget_value[m[K() const
+[46.229s]       |          [01;36m[K^~~~~~~~~[m[K
+[61.766s] [ 87%] [32m[1mLinking CXX executable test_mecanum_drive_controller[0m
+[64.646s] [ 87%] Built target test_mecanum_drive_controller
+[64.667s] [ 93%] [32mBuilding CXX object CMakeFiles/test_mecanum_drive_controller_preceding.dir/test/test_mecanum_drive_controller_preceding.cpp.o[0m
+[78.674s] [100%] [32m[1mLinking CXX executable test_mecanum_drive_controller_preceding[0m
+[79.598s] [100%] Built target test_mecanum_drive_controller_preceding
+[79.627s] Invoked command in '/home/rumy/acrome_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/mecanum_drive_controller -- -j12 -l12
+[79.641s] Invoking command in '/home/rumy/acrome_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/mecanum_drive_controller
+[87.085s] -- Install configuration: ""
+[87.086s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller
+[87.086s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[87.086s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/mecanum_drive_controller.xml
+[87.086s] -- Up-to-date: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller
+[87.086s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller
+[87.086s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[87.086s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[87.087s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[87.087s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+[87.087s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[87.087s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[87.087s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[87.087s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[87.087s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[87.106s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[87.106s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[87.106s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[87.107s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[87.108s] -- Installing: /home/rumy/acrome_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[87.165s] Invoked command in '/home/rumy/acrome_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/mecanum_drive_controller

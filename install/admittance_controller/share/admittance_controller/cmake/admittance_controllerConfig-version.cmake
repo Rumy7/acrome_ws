@@ -1,0 +1,1 @@
+/home/rumy/acrome_ws/build/admittance_controller/ament_cmake_core/admittance_controllerConfig-version.cmake

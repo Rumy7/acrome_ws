@@ -1,0 +1,74 @@
+[0.054s] Invoking command in '/home/rumy/acrome_ws/build/admittance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/admittance_controller
+[0.087s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.087s] -- Compiler warnings enabled for GNU
+[0.087s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.087s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[0.440s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.478s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.785s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[0.846s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.850s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.184s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.186s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.305s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.379s] -- Found kinematics_interface: 1.4.0 (/opt/ros/jazzy/share/kinematics_interface/cmake)
+[1.384s] -- Found tf2_eigen: 0.36.12 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[1.389s] -- Found tf2_kdl: 0.36.12 (/opt/ros/jazzy/share/tf2_kdl/cmake)
+[1.404s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.405s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.506s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.507s] -- Found kinematics_interface_kdl: 1.4.0 (/opt/ros/jazzy/share/kinematics_interface_kdl/cmake)
+[1.518s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.522s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.522s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.700s] -- Configuring done (1.6s)
+[1.813s] -- Generating done (0.1s)
+[1.834s] -- Build files have been written to: /home/rumy/acrome_ws/build/admittance_controller
+[1.911s] Invoked command in '/home/rumy/acrome_ws/build/admittance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/admittance_controller
+[1.912s] Invoking command in '/home/rumy/acrome_ws/build/admittance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/admittance_controller -- -j12 -l12
+[1.990s] [ 15%] Built target admittance_controller_parameters
+[1.990s] [ 30%] Built target gmock_main
+[1.993s] [ 53%] Built target gmock
+[2.019s] [ 69%] Built target admittance_controller
+[2.027s] [ 84%] Built target test_load_admittance_controller
+[2.075s] [100%] Built target test_admittance_controller
+[2.140s] Invoked command in '/home/rumy/acrome_ws/build/admittance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/admittance_controller -- -j12 -l12
+[2.140s] Invoking command in '/home/rumy/acrome_ws/build/admittance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/admittance_controller
+[2.167s] -- Install configuration: ""
+[2.167s] -- Execute custom install script
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/include/admittance_controller/admittance_controller_parameters.hpp
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller//admittance_controller.xml
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_controller.hpp
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_rule.hpp
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_rule_impl.hpp
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/environment/library_path.sh
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/environment/library_path.dsv
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/ament_index/resource_index/package_run_dependencies/admittance_controller
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/ament_index/resource_index/parent_prefix_path/admittance_controller
+[2.167s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/environment/ament_prefix_path.sh
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/environment/ament_prefix_path.dsv
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/environment/path.sh
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/environment/path.dsv
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/local_setup.bash
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/local_setup.sh
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/local_setup.zsh
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/local_setup.dsv
+[2.168s] -- Symlinking: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/package.dsv
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/ament_index/resource_index/packages/admittance_controller
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/admittance_controller
+[2.168s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.169s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/cmake/ament_cmake_export_targets-extras.cmake
+[2.169s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/cmake/admittance_controllerConfig.cmake
+[2.169s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/cmake/admittance_controllerConfig-version.cmake
+[2.169s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/package.xml
+[2.169s] -- Installing: /home/rumy/acrome_ws/install/admittance_controller/lib/libadmittance_controller.so
+[2.176s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/admittance_controller/lib/libadmittance_controller.so" to ""
+[2.176s] -- Up-to-date: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/cmake/export_admittance_controllerExport.cmake
+[2.176s] -- Up-to-date: /home/rumy/acrome_ws/install/admittance_controller/share/admittance_controller/cmake/export_admittance_controllerExport-noconfig.cmake
+[2.217s] Invoked command in '/home/rumy/acrome_ws/build/admittance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/admittance_controller

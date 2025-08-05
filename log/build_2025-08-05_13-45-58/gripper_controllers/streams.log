@@ -1,0 +1,68 @@
+[0.043s] Invoking command in '/home/rumy/acrome_ws/build/gripper_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/gripper_controllers -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/gripper_controllers
+[0.083s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.083s] -- Compiler warnings enabled for GNU
+[0.083s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.083s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.387s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.438s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[0.802s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.806s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.133s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.135s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.250s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.336s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.340s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.446s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.447s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.450s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.451s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.615s] -- Configuring done (1.6s)
+[1.741s] -- Generating done (0.1s)
+[1.761s] -- Build files have been written to: /home/rumy/acrome_ws/build/gripper_controllers
+[1.802s] Invoked command in '/home/rumy/acrome_ws/build/gripper_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/gripper_controllers -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/gripper_controllers
+[1.804s] Invoking command in '/home/rumy/acrome_ws/build/gripper_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/gripper_controllers -- -j12 -l12
+[1.873s] [ 15%] Built target gripper_action_controller_parameters
+[1.876s] [ 30%] Built target gmock_main
+[1.878s] [ 53%] Built target gmock
+[1.899s] [ 69%] Built target gripper_action_controller
+[1.909s] [ 84%] Built target test_load_gripper_action_controllers
+[1.936s] [100%] Built target test_gripper_controllers
+[2.005s] Invoked command in '/home/rumy/acrome_ws/build/gripper_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/gripper_controllers -- -j12 -l12
+[2.007s] Invoking command in '/home/rumy/acrome_ws/build/gripper_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/gripper_controllers
+[2.023s] -- Install configuration: ""
+[2.025s] -- Execute custom install script
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/include/gripper_controllers/gripper_action_controller_parameters.hpp
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers//ros_control_plugins.xml
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller.hpp
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller_impl.hpp
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/hardware_interface_adapter.hpp
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.sh
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.dsv
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+[2.026s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+[2.027s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+[2.027s] -- Symlinking: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/package.dsv
+[2.034s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+[2.035s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+[2.035s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.039s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[2.040s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+[2.042s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+[2.042s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/package.xml
+[2.043s] -- Up-to-date: /home/rumy/acrome_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+[2.043s] -- Up-to-date: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport.cmake
+[2.043s] -- Up-to-date: /home/rumy/acrome_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport-noconfig.cmake
+[2.078s] Invoked command in '/home/rumy/acrome_ws/build/gripper_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/gripper_controllers

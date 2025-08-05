@@ -1,0 +1,69 @@
+[0.050s] Invoking command in '/home/rumy/acrome_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/diff_drive_controller
+[0.085s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.085s] -- Compiler warnings enabled for GNU
+[0.085s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.085s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.406s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.417s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[0.460s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.611s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.614s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.163s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.165s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.280s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.356s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.399s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.399s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.510s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.511s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.514s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.515s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.701s] -- Configuring done (1.6s)
+[1.800s] -- Generating done (0.1s)
+[1.818s] -- Build files have been written to: /home/rumy/acrome_ws/build/diff_drive_controller
+[1.888s] Invoked command in '/home/rumy/acrome_ws/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/diff_drive_controller
+[1.888s] Invoking command in '/home/rumy/acrome_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/diff_drive_controller -- -j12 -l12
+[1.946s] [ 14%] Built target diff_drive_controller_parameters
+[1.947s] [ 28%] Built target gmock_main
+[1.951s] [ 50%] Built target gmock
+[1.989s] [ 71%] Built target diff_drive_controller
+[1.999s] [ 85%] Built target test_load_diff_drive_controller
+[2.028s] [100%] Built target test_diff_drive_controller
+[2.051s] Invoked command in '/home/rumy/acrome_ws/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/diff_drive_controller -- -j12 -l12
+[2.060s] Invoking command in '/home/rumy/acrome_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/diff_drive_controller
+[2.128s] -- Install configuration: ""
+[2.128s] -- Execute custom install script
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/include/diff_drive_controller/custom_validators.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller//diff_drive_plugin.xml
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/diff_drive_controller.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/odometry.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/speed_limiter.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[2.132s] -- Symlinking: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[2.133s] -- Up-to-date: /home/rumy/acrome_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[2.133s] -- Up-to-date: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
+[2.133s] -- Up-to-date: /home/rumy/acrome_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-noconfig.cmake
+[2.136s] Invoked command in '/home/rumy/acrome_ws/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/diff_drive_controller

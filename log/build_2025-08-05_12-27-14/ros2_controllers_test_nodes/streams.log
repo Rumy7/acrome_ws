@@ -1,0 +1,28 @@
+[3.664s] Invoking command in '/home/rumy/acrome_ws/build/ros2_controllers_test_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[4.307s] running develop
+[4.733s] running egg_info
+[4.736s] creating ros2_controllers_test_nodes.egg-info
+[4.803s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[4.805s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[4.814s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[4.814s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[4.814s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[4.814s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[4.915s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[4.919s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[4.973s] running build_ext
+[4.973s] Creating /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[4.974s] Installing publisher_forward_position_controller script to /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[4.974s] Installing publisher_joint_trajectory_controller script to /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[4.975s] 
+[4.978s] Installed /home/rumy/acrome_ws/build/ros2_controllers_test_nodes
+[4.978s] running symlink_data
+[4.978s] creating /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ament_index
+[4.979s] creating /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[4.979s] creating /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[4.979s] symbolically linking /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/resource/ros2_controllers_test_nodes -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[4.979s] symbolically linking /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/package.xml -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[4.979s] creating /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[4.979s] symbolically linking /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/test/rrbot_joint_trajectory_publisher.yaml -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[4.979s] symbolically linking /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/test/rrbot_forward_position_publisher.yaml -> /home/rumy/acrome_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[5.231s] Invoked command in '/home/rumy/acrome_ws/build/ros2_controllers_test_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rumy/acrome_ws/build/ros2_controllers_test_nodes/build --no-deps symlink_data

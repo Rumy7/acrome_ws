@@ -1,0 +1,75 @@
+[0.093s] Invoking command in '/home/rumy/acrome_ws/build/ackermann_steering_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/ackermann_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/ackermann_steering_controller
+[0.122s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.123s] -- Compiler warnings enabled for GNU
+[0.123s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.123s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.535s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.582s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.596s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.980s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.983s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.007s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.023s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.064s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.081s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.321s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.321s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.334s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.361s] -- Found steering_controllers_library: 4.30.1 (/home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[1.503s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.505s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.583s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.584s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.705s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.705s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.707s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.707s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.880s] -- Configuring done (1.8s)
+[1.986s] -- Generating done (0.1s)
+[2.013s] -- Build files have been written to: /home/rumy/acrome_ws/build/ackermann_steering_controller
+[2.053s] Invoked command in '/home/rumy/acrome_ws/build/ackermann_steering_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/ackermann_steering_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/ackermann_steering_controller
+[2.054s] Invoking command in '/home/rumy/acrome_ws/build/ackermann_steering_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/ackermann_steering_controller -- -j12 -l12
+[2.428s] [ 13%] Built target ackermann_steering_controller_parameters
+[2.428s] [ 26%] Built target gmock_main
+[2.428s] [ 46%] Built target gmock
+[2.428s] [ 60%] Built target ackermann_steering_controller
+[2.428s] [ 73%] Built target test_load_ackermann_steering_controller
+[2.428s] [ 86%] Built target test_ackermann_steering_controller_preceding
+[2.429s] [100%] Built target test_ackermann_steering_controller
+[2.548s] Invoked command in '/home/rumy/acrome_ws/build/ackermann_steering_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/ackermann_steering_controller -- -j12 -l12
+[2.549s] Invoking command in '/home/rumy/acrome_ws/build/ackermann_steering_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/ackermann_steering_controller
+[3.018s] -- Install configuration: ""
+[3.018s] -- Execute custom install script
+[3.018s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller_parameters.hpp
+[3.018s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller//ackermann_steering_controller.xml
+[3.018s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/ackermann_steering_controller.hpp
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.sh
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.dsv
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ament_index/resource_index/package_run_dependencies/ackermann_steering_controller
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ament_index/resource_index/parent_prefix_path/ackermann_steering_controller
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.sh
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.dsv
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.sh
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.dsv
+[3.019s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.bash
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.sh
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.zsh
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.dsv
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.dsv
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ament_index/resource_index/packages/ackermann_steering_controller
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ackermann_steering_controller
+[3.020s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.041s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_targets-extras.cmake
+[3.071s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig.cmake
+[3.098s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig-version.cmake
+[3.114s] -- Symlinking: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.xml
+[3.127s] -- Installing: /home/rumy/acrome_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so
+[3.128s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so" to ""
+[3.128s] -- Installing: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport.cmake
+[3.129s] -- Installing: /home/rumy/acrome_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport-noconfig.cmake
+[3.509s] Invoked command in '/home/rumy/acrome_ws/build/ackermann_steering_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/ackermann_steering_controller

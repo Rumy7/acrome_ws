@@ -1,0 +1,76 @@
+[0.035s] Invoking command in '/home/rumy/acrome_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/joint_trajectory_controller
+[1.552s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[1.552s] -- Compiler warnings enabled for GNU
+[1.552s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.552s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.552s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.552s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[1.552s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[1.553s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.553s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.555s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.555s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.555s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.556s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.556s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.556s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.556s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.556s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.556s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.556s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.556s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.557s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.682s] -- Configuring done (1.6s)
+[1.816s] -- Generating done (0.1s)
+[1.853s] -- Build files have been written to: /home/rumy/acrome_ws/build/joint_trajectory_controller
+[1.902s] Invoked command in '/home/rumy/acrome_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/joint_trajectory_controller
+[1.902s] Invoking command in '/home/rumy/acrome_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/joint_trajectory_controller -- -j12 -l12
+[2.090s] [ 10%] Built target joint_trajectory_controller_parameters
+[2.090s] [ 25%] Built target gmock
+[2.090s] [ 35%] Built target gmock_main
+[2.094s] [ 50%] Built target joint_trajectory_controller
+[2.156s] [ 60%] Built target test_trajectory
+[2.157s] [ 70%] Built target test_tolerances
+[2.158s] [ 80%] Built target test_trajectory_controller
+[2.177s] [ 90%] Built target test_trajectory_actions
+[2.186s] [100%] Built target test_load_joint_trajectory_controller
+[2.202s] Invoked command in '/home/rumy/acrome_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/joint_trajectory_controller -- -j12 -l12
+[2.203s] Invoking command in '/home/rumy/acrome_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/joint_trajectory_controller
+[2.367s] -- Install configuration: ""
+[2.367s] -- Execute custom install script
+[2.367s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp
+[2.367s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp
+[2.367s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[2.368s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[2.368s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[2.368s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[2.368s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[2.368s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[2.369s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[2.370s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[2.371s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[2.371s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[2.372s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[2.382s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[2.394s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[2.407s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[2.420s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[2.432s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[2.445s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[2.452s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[2.464s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[2.479s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[2.488s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[2.501s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.513s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[2.522s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[2.530s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[2.544s] -- Symlinking: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[2.557s] -- Installing: /home/rumy/acrome_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[2.564s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[2.564s] -- Installing: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[2.564s] -- Installing: /home/rumy/acrome_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[2.629s] Invoked command in '/home/rumy/acrome_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/joint_trajectory_controller

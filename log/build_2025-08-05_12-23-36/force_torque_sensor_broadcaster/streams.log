@@ -1,0 +1,218 @@
+[0.040s] Invoking command in '/home/rumy/acrome_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster
+[0.161s] -- The C compiler identification is GNU 13.3.0
+[0.255s] -- The CXX compiler identification is GNU 13.3.0
+[0.281s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.427s] -- Detecting C compile features
+[0.427s] -- Detecting C compile features - done
+[0.436s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.628s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.635s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.635s] -- Compiler warnings enabled for GNU
+[0.635s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.643s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.047s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.137s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.166s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.593s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.679s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.686s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.729s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.803s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.807s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.833s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.837s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.850s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.867s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.388s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[2.392s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.430s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.435s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.564s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.569s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.584s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.584s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.733s] -- Configuring done (2.7s)
+[2.839s] -- Generating done (0.1s)
+[2.881s] -- Build files have been written to: /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster
+[2.917s] Invoked command in '/home/rumy/acrome_ws/build/force_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster
+[2.917s] Invoking command in '/home/rumy/acrome_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster -- -j12 -l12
+[3.219s] [  7%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster_parameters.yaml `[0m
+[3.219s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.219s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.219s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[7.197s] [ 38%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster_parameters.hpp[0m
+[7.308s] [ 38%] Built target force_torque_sensor_broadcaster_parameters
+[7.466s] [ 46%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[9.128s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[9.303s] [ 53%] Built target gmock_main
+[20.246s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[20.334s] [ 61%] Built target gmock
+[27.980s] [ 69%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[28.576s] [ 69%] Built target force_torque_sensor_broadcaster
+[28.629s] [ 76%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[38.712s] [ 84%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[39.712s] [ 84%] Built target test_load_force_torque_sensor_broadcaster
+[39.749s] [ 92%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[44.299s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+[44.300s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[44.301s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[44.301s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[44.301s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.hpp:22[m[K,
+[44.301s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:19[m[K:
+[44.302s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_SensorName_Publish_Success_with_Offsets_Test::[01;32m[KTestBody[m[K()[m[K’:
+[44.302s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:340:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.302s]   340 |       [01;35m[Kexported_state_interfaces[i]->get_value()[m[K,
+[44.302s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[44.302s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[44.302s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[44.302s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[44.302s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[44.303s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[44.303s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.303s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[44.303s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[44.303s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.303s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[44.303s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[44.303s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[44.303s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:339:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[44.304s]   339 |     [01;36m[KASSERT_EQ[m[K(
+[44.304s]       |     [01;36m[K^~~~~~~~~[m[K
+[44.310s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:25[m[K,
+[44.310s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[44.310s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:25[m[K,
+[44.311s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.hpp:27[m[K:
+[44.311s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.311s]   171 |   double [01;36m[Kget_value[m[K() const
+[44.311s]       |          [01;36m[K^~~~~~~~~[m[K
+[44.311s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_SensorName_Publish_Success_with_Multipliers_Test::[01;32m[KTestBody[m[K()[m[K’:
+[44.311s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:410:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.312s]   410 |       [01;35m[Kexported_state_interfaces[i]->get_value()[m[K,
+[44.312s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[44.312s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[44.312s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[44.312s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[44.312s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[44.312s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[44.313s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.313s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[44.313s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[44.313s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.313s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[44.313s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[44.313s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[44.313s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:409:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[44.313s]   409 |     [01;36m[KASSERT_EQ[m[K(
+[44.314s]       |     [01;36m[K^~~~~~~~~[m[K
+[44.314s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.314s]   171 |   double [01;36m[Kget_value[m[K() const
+[44.314s]       |          [01;36m[K^~~~~~~~~[m[K
+[44.318s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_InterfaceNames_Publish_Success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[44.319s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:448:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.319s]   448 |   ASSERT_EQ([01;35m[Kexported_state_interfaces[0]->get_value()[m[K, sensor_values_[0]);
+[44.319s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[44.319s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[44.320s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[44.320s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[44.320s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[44.320s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[44.320s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.320s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[44.320s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[44.320s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.321s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[44.322s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[44.322s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[44.322s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:448:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[44.322s]   448 |   [01;36m[KASSERT_EQ[m[K(exported_state_interfaces[0]->get_value(), sensor_values_[0]);
+[44.322s]       |   [01;36m[K^~~~~~~~~[m[K
+[44.322s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.322s]   171 |   double [01;36m[Kget_value[m[K() const
+[44.322s]       |          [01;36m[K^~~~~~~~~[m[K
+[44.326s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:449:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.326s]   449 |   ASSERT_EQ([01;35m[Kexported_state_interfaces[1]->get_value()[m[K, sensor_values_[5]);
+[44.327s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[44.327s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[44.327s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[44.327s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[44.327s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[44.328s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[44.328s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.328s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[44.328s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[44.328s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.328s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[44.328s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[44.328s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[44.328s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:449:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[44.329s]   449 |   [01;36m[KASSERT_EQ[m[K(exported_state_interfaces[1]->get_value(), sensor_values_[5]);
+[44.329s]       |   [01;36m[K^~~~~~~~~[m[K
+[44.329s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.329s]   171 |   double [01;36m[Kget_value[m[K() const
+[44.329s]       |          [01;36m[K^~~~~~~~~[m[K
+[44.336s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual void ForceTorqueSensorBroadcasterTest_All_InterfaceNames_Publish_Success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[44.336s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:498:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.337s]   498 |     ASSERT_EQ([01;35m[Kexported_state_interfaces[i]->get_value()[m[K, sensor_values_[i]);
+[44.337s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[44.337s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[44.337s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[44.337s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[44.338s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[44.338s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[44.338s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.338s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[44.342s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[44.342s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[44.342s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[44.342s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[44.343s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[44.343s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/force_torque_sensor_broadcaster/test/test_force_torque_sensor_broadcaster.cpp:498:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[44.343s]   498 |     [01;36m[KASSERT_EQ[m[K(exported_state_interfaces[i]->get_value(), sensor_values_[i]);
+[44.343s]       |     [01;36m[K^~~~~~~~~[m[K
+[44.343s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:171:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.343s]   171 |   double [01;36m[Kget_value[m[K() const
+[44.343s]       |          [01;36m[K^~~~~~~~~[m[K
+[52.967s] [100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[54.420s] [100%] Built target test_force_torque_sensor_broadcaster
+[54.440s] Invoked command in '/home/rumy/acrome_ws/build/force_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster -- -j12 -l12
+[54.448s] Invoking command in '/home/rumy/acrome_ws/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster
+[63.932s] -- Install configuration: ""
+[63.932s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster
+[63.933s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster_parameters.hpp
+[63.933s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.xml
+[63.933s] -- Up-to-date: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster
+[63.934s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster
+[63.934s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp
+[63.934s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so
+[63.934s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so" to ""
+[63.935s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.sh
+[63.935s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.dsv
+[63.935s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/force_torque_sensor_broadcaster
+[63.935s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/force_torque_sensor_broadcaster
+[63.935s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.sh
+[63.936s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.dsv
+[63.936s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.sh
+[63.936s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.dsv
+[63.936s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.bash
+[63.936s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.sh
+[63.937s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.zsh
+[63.937s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.dsv
+[63.937s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.dsv
+[63.938s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/packages/force_torque_sensor_broadcaster
+[63.938s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/force_torque_sensor_broadcaster
+[63.938s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport.cmake
+[63.938s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport-noconfig.cmake
+[63.939s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.939s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[63.939s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig.cmake
+[63.939s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig-version.cmake
+[63.940s] -- Installing: /home/rumy/acrome_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.xml
+[63.985s] Invoked command in '/home/rumy/acrome_ws/build/force_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/force_torque_sensor_broadcaster

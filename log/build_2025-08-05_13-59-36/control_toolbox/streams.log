@@ -1,0 +1,122 @@
+[0.065s] Invoking command in '/home/rumy/acrome_ws/build/control_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/control_toolbox/control_toolbox -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/control_toolbox
+[0.089s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.089s] -- Compiler warnings enabled for GNU
+[0.089s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.089s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.398s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.435s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.747s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.800s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.805s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.901s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.997s] -- Found realtime_tools: 3.7.0 (/opt/ros/jazzy/share/realtime_tools/cmake)
+[1.025s] -- Found filters: 2.2.1 (/opt/ros/jazzy/share/filters/cmake)
+[1.040s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.040s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.046s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.089s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.094s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.095s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.213s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.214s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.219s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.220s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.363s] -- Configuring done (1.3s)
+[1.544s] -- Generating done (0.1s)
+[1.613s] -- Build files have been written to: /home/rumy/acrome_ws/build/control_toolbox
+[1.650s] Invoked command in '/home/rumy/acrome_ws/build/control_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/control_toolbox/control_toolbox -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/control_toolbox
+[1.651s] Invoking command in '/home/rumy/acrome_ws/build/control_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/control_toolbox -- -j12 -l12
+[1.780s] [  3%] Built target gravity_compensation_filter_parameters
+[1.780s] [  7%] Built target low_pass_filter_parameters
+[1.806s] [ 11%] Built target gmock_main
+[1.810s] [ 15%] Built target exponential_filter_parameters
+[1.816s] [ 21%] Built target gmock
+[1.821s] [ 25%] Built target rate_limiter_parameters
+[1.830s] [ 38%] Built target control_toolbox
+[1.863s] [ 42%] Built target low_pass_filter
+[1.874s] [ 46%] Built target exponential_filter
+[1.875s] [ 50%] Built target gravity_compensation
+[1.896s] [ 53%] Built target pid_ros_parameters_tests
+[1.903s] [ 57%] Built target pid_tests
+[1.925s] [ 61%] Built target rate_limiter_tests
+[1.931s] [ 65%] Built target pid_ros_publisher_tests
+[1.933s] [ 69%] Built target rate_limiter
+[1.936s] [ 73%] Built target test_load_low_pass_filter
+[1.954s] [ 76%] Built target test_low_pass_filter
+[1.958s] [ 80%] Built target test_load_exponential_filter
+[1.960s] [ 84%] Built target test_exponential_filter
+[1.981s] [ 88%] Built target test_gravity_compensation
+[1.986s] [ 92%] Built target test_load_gravity_compensation
+[2.001s] [ 96%] Built target test_rate_limiter
+[2.006s] [100%] Built target test_load_rate_limiter
+[2.108s] Invoked command in '/home/rumy/acrome_ws/build/control_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/control_toolbox -- -j12 -l12
+[2.109s] Invoking command in '/home/rumy/acrome_ws/build/control_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/control_toolbox
+[2.128s] -- Install configuration: ""
+[2.128s] -- Execute custom install script
+[2.128s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[2.128s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[2.128s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/gravity_compensation_filter_parameters.hpp
+[2.129s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox//control_filters.xml
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_filters/custom_validators.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_filters/exponential_filter.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_filters/gravity_compensation.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_filters/low_pass_filter.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_filters/rate_limiter.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/dither.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/filters.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/limited_proxy.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/low_pass_filter.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/pid.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/pid_ros.hpp
+[2.130s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/rate_limiter.hpp
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/sine_sweep.hpp
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/include/control_toolbox/control_toolbox/sinusoid.hpp
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/environment/library_path.sh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/environment/library_path.dsv
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/ament_index/resource_index/package_run_dependencies/control_toolbox
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/ament_index/resource_index/parent_prefix_path/control_toolbox
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.sh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.dsv
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/environment/path.sh
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/environment/path.dsv
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/local_setup.bash
+[2.131s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/local_setup.sh
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/local_setup.zsh
+[2.132s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/local_setup.dsv
+[2.132s] -- Symlinking: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/package.dsv
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/ament_index/resource_index/packages/control_toolbox
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/ament_index/resource_index/filters__pluginlib__plugin/control_toolbox
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig.cmake
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig-version.cmake
+[2.133s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/package.xml
+[2.134s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/lib/libcontrol_toolbox.so
+[2.134s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/lib/liblow_pass_filter.so
+[2.134s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/lib/librate_limiter.so
+[2.134s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/lib/libexponential_filter.so
+[2.135s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/lib/libgravity_compensation.so
+[2.135s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport.cmake
+[2.135s] -- Up-to-date: /home/rumy/acrome_ws/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport-noconfig.cmake
+[2.576s] Invoked command in '/home/rumy/acrome_ws/build/control_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/control_toolbox

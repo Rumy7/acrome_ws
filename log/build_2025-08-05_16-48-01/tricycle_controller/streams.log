@@ -1,0 +1,42 @@
+[0.164s] Invoking command in '/home/rumy/acrome_ws/build/tricycle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/tricycle_controller -- -j12 -l12
+[0.226s] [ 11%] Built target tricycle_controller_parameters
+[0.226s] [ 38%] Built target gmock
+[0.226s] [ 38%] Built target gmock_main
+[0.259s] [ 66%] Built target tricycle_controller
+[0.290s] [ 77%] Built target test_tricycle_controller
+[0.292s] [ 88%] Built target test_traction_limiter
+[0.294s] [100%] Built target test_load_tricycle_controller
+[0.415s] Invoked command in '/home/rumy/acrome_ws/build/tricycle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/tricycle_controller -- -j12 -l12
+[0.417s] Invoking command in '/home/rumy/acrome_ws/build/tricycle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/tricycle_controller
+[0.447s] -- Install configuration: ""
+[0.447s] -- Execute custom install script
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller_parameters.hpp
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller//tricycle_controller.xml
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/odometry.hpp
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/steering_limiter.hpp
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/traction_limiter.hpp
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/include/tricycle_controller/tricycle_controller/tricycle_controller.hpp
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/environment/library_path.sh
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/environment/library_path.dsv
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/ament_index/resource_index/package_run_dependencies/tricycle_controller
+[0.448s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/ament_index/resource_index/parent_prefix_path/tricycle_controller
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/environment/ament_prefix_path.sh
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/environment/ament_prefix_path.dsv
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/environment/path.sh
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/environment/path.dsv
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/local_setup.bash
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/local_setup.sh
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/local_setup.zsh
+[0.449s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/local_setup.dsv
+[0.449s] -- Symlinking: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/package.dsv
+[0.455s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/ament_index/resource_index/packages/tricycle_controller
+[0.456s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/tricycle_controller
+[0.457s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.457s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.457s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/cmake/tricycle_controllerConfig.cmake
+[0.457s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/cmake/tricycle_controllerConfig-version.cmake
+[0.457s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/package.xml
+[0.457s] -- Up-to-date: /home/rumy/acrome_ws/install/tricycle_controller/lib/libtricycle_controller.so
+[0.457s] -- Up-to-date: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport.cmake
+[0.461s] -- Up-to-date: /home/rumy/acrome_ws/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport-noconfig.cmake
+[0.532s] Invoked command in '/home/rumy/acrome_ws/build/tricycle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/tricycle_controller

@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="acrome_mini_robot">
+
+  <!-- ======================== XACRO PROPERTIES ======================== -->
+  <!-- Tekerleklerin ve robotun diğer boyutlarını tek bir yerden kontrol etmek için xacro özellikleri -->
+  <xacro:property name="wheel_radius" value="0.05" />
+  <xacro:property name="wheel_width" value="0.02" />
+  <xacro:property name="wheel_separation" value="0.2856" />
+
+  <!-- ======================== URDF/XACRO MODEL TANIMI ======================== -->
+
+  <!-- KDL parser'ı için dummy link -->
+  <link name="dummy_base_link"/>
+  <joint name="dummy_joint" type="fixed">
+    <parent link="dummy_base_link"/>
+    <child link="base_link"/>
+  </joint>
+
+  <!-- base_link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.004817 0.018224 0.010092" rpy="0 0 0" />
+      <mass value="0.362984" />
+      <inertia ixx="0.000192" ixy="0" ixz="0" iyy="0.000626" iyz="0" izz="0.000789" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/base_link.stl" />
+      </geometry>
+      <material name="default">
+        <color rgba="0.792156 0.819607 0.933333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- sol tekerlek linki -->
+  <link name="left_wheel_link">
+    <inertial>
+      <origin xyz="0.006001 -0.000499 0.000223" rpy="0 0 0" />
+      <mass value="0.031169" />
+      <inertia ixx="0.000002" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.000001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/left_wheel.stl" />
+      </geometry>
+      <material name="default">
+        <color rgba="0.792156 0.819607 0.933333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/left_wheel.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- sol tekerlek eklemi -->
+  <joint name="leftwheel" type="continuous">
+    <origin xyz="-0.14277 -5.9761E-05 -0.01126" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="left_wheel_link" />
+    <axis xyz="-1 0 0" />
+    <limit effort="10" velocity="10" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <!-- sağ tekerlek linki -->
+  <link name="right_wheel_link">
+    <inertial>
+      <origin xyz="-0.00600143061412553 0.000511557166585529 -0.000194639007620264" rpy="0 0 0" />
+      <mass value="0.031169" />
+      <inertia ixx="0.000002" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.000001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/right_wheel.stl" />
+      </geometry>
+      <material name="default">
+        <color rgba="0.792156 0.819607 0.933333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://acrome_mini_robot/meshes/right_wheel.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- sağ tekerlek eklemi -->
+  <joint name="rightwheel" type="continuous">
+    <origin xyz="0.14283 -5.9761E-05 -0.01126" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="right_wheel_link" />
+    <axis xyz="1 0 0" />
+    <limit effort="10" velocity="10" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <!-- ======================== ROS 2 CONTROL EKLENTİSİ ======================== -->
+  <ros2_control name="acrome_control" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="leftwheel">
+      <command_interface name="velocity"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="rightwheel">
+      <command_interface name="velocity"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ======================== GAZEBO EKLENTİSİ ======================== -->
+  <gazebo>
+    <plugin name="gz_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(find acrome_mini_robot)/config/my_controller.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

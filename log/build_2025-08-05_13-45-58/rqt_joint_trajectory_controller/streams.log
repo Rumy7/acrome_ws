@@ -1,0 +1,57 @@
+[2.222s] Invoking command in '/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build
+[9.504s] running develop
+[9.504s] Removing /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[9.517s] Invoked command in '/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build
+[9.517s] Invoking command in '/home/rumy/acrome_ws/src/ros2_controllers/rqt_joint_trajectory_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build install --record /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data --force
+[10.897s] running egg_info
+[10.897s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[10.897s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[10.897s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[10.897s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[10.897s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[10.897s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[10.897s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[10.898s] running build
+[10.898s] running build_py
+[10.898s] creating /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build
+[10.898s] creating /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib
+[10.898s] creating /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.898s] copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.898s] copying rqt_joint_trajectory_controller/double_editor.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.898s] copying rqt_joint_trajectory_controller/utils.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.899s] copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.899s] copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.899s] copying rqt_joint_trajectory_controller/update_combo.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.899s] copying rqt_joint_trajectory_controller/__init__.py -> /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[10.899s] running install
+[10.899s] running install_lib
+[10.899s] creating /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.899s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.899s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/double_editor.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.900s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/utils.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.900s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.900s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.900s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/update_combo.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.900s] copying /home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/__init__.py -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller
+[10.900s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/joint_limits_urdf.py to joint_limits_urdf.cpython-312.pyc
+[10.900s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/double_editor.py to double_editor.cpython-312.pyc
+[10.901s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/utils.py to utils.cpython-312.pyc
+[10.901s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py to rqt_joint_trajectory_controller.cpython-312.pyc
+[10.901s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/joint_trajectory_controller.py to joint_trajectory_controller.cpython-312.pyc
+[10.901s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/update_combo.py to update_combo.cpython-312.pyc
+[10.901s] byte-compiling /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller/__init__.py to __init__.cpython-312.pyc
+[10.901s] running install_data
+[10.901s] copying resource/rqt_joint_trajectory_controller -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[10.901s] copying package.xml -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[10.901s] copying resource/on.svg -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[10.902s] copying resource/joint_trajectory_controller.ui -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[10.902s] copying resource/scope.png -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[10.902s] copying resource/scope.svg -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[10.902s] copying resource/double_editor.ui -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[10.902s] copying resource/off.svg -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[10.902s] copying plugin.xml -> /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[10.902s] running install_egg_info
+[10.902s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt_joint_trajectory_controller-4.30.1-py3.12.egg-info
+[10.903s] running install_scripts
+[10.903s] Installing rqt_joint_trajectory_controller script to /home/rumy/acrome_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[10.903s] writing list of installed files to '/home/rumy/acrome_ws/build/rqt_joint_trajectory_controller/install.log'

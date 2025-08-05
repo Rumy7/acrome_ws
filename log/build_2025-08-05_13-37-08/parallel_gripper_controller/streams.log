@@ -1,0 +1,152 @@
+[0.070s] Invoking command in '/home/rumy/acrome_ws/build/parallel_gripper_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/parallel_gripper_controller -- -j12 -l12
+[7.757s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[7.757s] -- Compiler warnings enabled for GNU
+[7.757s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[7.758s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.758s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[7.758s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.759s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.759s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[7.759s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.760s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.760s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.760s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.760s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[7.760s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[7.760s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[7.760s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[7.760s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.761s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[7.761s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.761s] -- Configuring done (2.2s)
+[7.761s] -- Generating done (0.1s)
+[7.761s] -- Build files have been written to: /home/rumy/acrome_ws/build/parallel_gripper_controller
+[7.761s] [  7%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/src/gripper_action_controller_parameters.yaml `[0m
+[7.761s] [ 30%] Built target gmock
+[7.761s] [ 46%] Built target gmock_main
+[7.761s] [ 53%] [32mBuilding CXX object CMakeFiles/test_load_parallel_gripper_action_controllers.dir/test/test_load_parallel_gripper_action_controller.cpp.o[0m
+[7.761s] [ 61%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/parallel_gripper_controller/include/parallel_gripper_action_controller_parameters.hpp[0m
+[7.762s] [ 61%] Built target parallel_gripper_action_controller_parameters
+[7.762s] [ 69%] [32mBuilding CXX object CMakeFiles/parallel_gripper_action_controller.dir/src/parallel_gripper_action_controller.cpp.o[0m
+[10.628s] In file included from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller.hpp:163[m[K,
+[10.628s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/src/parallel_gripper_action_controller.cpp:19[m[K:
+[10.629s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type parallel_gripper_action_controller::GripperActionController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.629s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:62:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.629s]    62 |  current_position = [01;35m[Kjoint_position_state_interface_->get().get_value()[m[K;
+[10.629s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.629s] 
+[10.629s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[10.629s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[10.629s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller.hpp:36[m[K:
+[10.629s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.629s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.629s]       |          [01;36m[K^~~~~~~~~[m[K
+[10.630s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:63:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.630s]    63 |  current_velocity = [01;35m[Kjoint_velocity_state_interface_->get().get_value()[m[K;
+[10.630s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.630s] 
+[10.630s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.630s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.630s]       |          [01;36m[K^~~~~~~~~[m[K
+[10.636s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:68:44:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[10.636s]    68 |   [01;35m[Kjoint_command_interface_->get().set_value(command_struct_rt_.position_cmd_)[m[K;
+[10.636s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.636s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K:
+[10.636s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.636s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[10.641s]       |                      [01;36m[K^~~~~~~~~[m[K
+[10.641s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:71:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[10.641s]    71 |     [01;35m[Kspeed_interface_->get().set_value(command_struct_rt_.max_velocity_)[m[K;
+[10.641s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.641s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.641s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[10.642s]       |                      [01;36m[K^~~~~~~~~[m[K
+[10.642s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:75:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[10.642s]    75 |     [01;35m[Keffort_interface_->get().set_value(command_struct_rt_.max_effort_)[m[K;
+[10.642s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.642s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.642s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[10.642s]       |                      [01;36m[K^~~~~~~~~[m[K
+[10.658s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:[m[K In member function ‘[01m[Kvoid parallel_gripper_action_controller::GripperActionController::[01;32m[Kset_hold_position[m[K()[m[K’:
+[10.658s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:171:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.658s]   171 | ct_.position_cmd_ = [01;35m[Kjoint_position_state_interface_->get().get_value()[m[K;
+[10.658s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.659s] 
+[10.659s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.659s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.659s]       |          [01;36m[K^~~~~~~~~[m[K
+[10.680s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn parallel_gripper_action_controller::GripperActionController::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[10.681s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:320:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.681s]   320 | ct_.position_cmd_ = [01;35m[Kjoint_position_state_interface_->get().get_value()[m[K;
+[10.681s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.681s] 
+[10.681s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.682s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.683s]       |          [01;36m[K^~~~~~~~~[m[K
+[15.581s] [ 76%] [32m[1mLinking CXX shared library libparallel_gripper_action_controller.so[0m
+[16.040s] [ 76%] Built target parallel_gripper_action_controller
+[16.100s] [ 84%] [32mBuilding CXX object CMakeFiles/test_parallel_gripper_controller.dir/test/test_parallel_gripper_controller.cpp.o[0m
+[16.518s] [ 92%] [32m[1mLinking CXX executable test_load_parallel_gripper_action_controllers[0m
+[17.425s] [ 92%] Built target test_load_parallel_gripper_action_controllers
+[22.034s] In file included from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller.hpp:163[m[K,
+[22.037s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/test/test_parallel_gripper_controller.hpp:26[m[K,
+[22.037s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/test/test_parallel_gripper_controller.cpp:23[m[K:
+[22.037s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type parallel_gripper_action_controller::GripperActionController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[22.037s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:62:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.037s]    62 |  current_position = [01;35m[Kjoint_position_state_interface_->get().get_value()[m[K;
+[22.037s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[22.038s] 
+[22.038s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[22.038s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[22.038s]                  from [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller.hpp:36[m[K:
+[22.038s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.038s]    94 |   double [01;36m[Kget_value[m[K() const
+[22.038s]       |          [01;36m[K^~~~~~~~~[m[K
+[22.038s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:63:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.039s]    63 |  current_velocity = [01;35m[Kjoint_velocity_state_interface_->get().get_value()[m[K;
+[22.039s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[22.039s] 
+[22.039s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.039s]    94 |   double [01;36m[Kget_value[m[K() const
+[22.039s]       |          [01;36m[K^~~~~~~~~[m[K
+[22.039s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:68:44:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[22.039s]    68 |   [01;35m[Kjoint_command_interface_->get().set_value(command_struct_rt_.position_cmd_)[m[K;
+[22.039s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.048s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K:
+[22.048s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.048s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[22.048s]       |                      [01;36m[K^~~~~~~~~[m[K
+[22.048s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:71:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[22.048s]    71 |     [01;35m[Kspeed_interface_->get().set_value(command_struct_rt_.max_velocity_)[m[K;
+[22.048s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.049s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.049s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[22.049s]       |                      [01;36m[K^~~~~~~~~[m[K
+[22.049s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:75:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[22.049s]    75 |     [01;35m[Keffort_interface_->get().set_value(command_struct_rt_.max_effort_)[m[K;
+[22.049s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.049s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.049s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[22.049s]       |                      [01;36m[K^~~~~~~~~[m[K
+[22.057s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:[m[K In member function ‘[01m[Kvoid parallel_gripper_action_controller::GripperActionController::[01;32m[Kset_hold_position[m[K()[m[K’:
+[22.057s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:171:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.057s]   171 | ct_.position_cmd_ = [01;35m[Kjoint_position_state_interface_->get().get_value()[m[K;
+[22.057s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[22.057s] 
+[22.057s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.058s]    94 |   double [01;36m[Kget_value[m[K() const
+[22.058s]       |          [01;36m[K^~~~~~~~~[m[K
+[22.085s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn parallel_gripper_action_controller::GripperActionController::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[22.085s] [01m[K/home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp:320:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.085s]   320 | ct_.position_cmd_ = [01;35m[Kjoint_position_state_interface_->get().get_value()[m[K;
+[22.085s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[22.085s] 
+[22.085s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.086s]    94 |   double [01;36m[Kget_value[m[K() const
+[22.086s]       |          [01;36m[K^~~~~~~~~[m[K
+[27.787s] [100%] [32m[1mLinking CXX executable test_parallel_gripper_controller[0m
+[28.691s] [100%] Built target test_parallel_gripper_controller

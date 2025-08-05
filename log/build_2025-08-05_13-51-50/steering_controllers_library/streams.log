@@ -1,0 +1,79 @@
+[0.054s] Invoking command in '/home/rumy/acrome_ws/build/steering_controllers_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/steering_controllers_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/steering_controllers_library
+[0.075s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.075s] -- Compiler warnings enabled for GNU
+[0.076s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.076s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.399s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.405s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.445s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.754s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.796s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.852s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.855s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.882s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.895s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.919s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.931s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.950s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.159s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.159s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.173s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.211s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.236s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[1.242s] -- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.282s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.287s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.289s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.358s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.360s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.470s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.471s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.475s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.475s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.479s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.479s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.480s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.628s] -- Configuring done (1.6s)
+[1.729s] -- Generating done (0.1s)
+[1.748s] -- Build files have been written to: /home/rumy/acrome_ws/build/steering_controllers_library
+[1.777s] Invoked command in '/home/rumy/acrome_ws/build/steering_controllers_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/steering_controllers_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/steering_controllers_library
+[1.778s] Invoking command in '/home/rumy/acrome_ws/build/steering_controllers_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/steering_controllers_library -- -j12 -l12
+[1.878s] [ 14%] Built target steering_controllers_library_parameters
+[1.899s] [ 35%] Built target gmock
+[1.903s] [ 50%] Built target gmock_main
+[1.915s] [ 71%] Built target steering_controllers_library
+[1.946s] [ 85%] Built target test_steering_odometry
+[1.951s] [100%] Built target test_steering_controllers_library
+[2.034s] Invoked command in '/home/rumy/acrome_ws/build/steering_controllers_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/steering_controllers_library -- -j12 -l12
+[2.035s] Invoking command in '/home/rumy/acrome_ws/build/steering_controllers_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/steering_controllers_library
+[2.044s] -- Install configuration: ""
+[2.044s] -- Execute custom install script
+[2.044s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library_parameters.hpp
+[2.044s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_controllers_library.hpp
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_odometry.hpp
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.sh
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.dsv
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/ament_index/resource_index/package_run_dependencies/steering_controllers_library
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/ament_index/resource_index/parent_prefix_path/steering_controllers_library
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.sh
+[2.045s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.dsv
+[2.046s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.sh
+[2.046s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.dsv
+[2.046s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.bash
+[2.046s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.sh
+[2.046s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.zsh
+[2.046s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.dsv
+[2.046s] -- Symlinking: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/package.dsv
+[2.055s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/ament_index/resource_index/packages/steering_controllers_library
+[2.055s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.055s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_targets-extras.cmake
+[2.055s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig.cmake
+[2.055s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig-version.cmake
+[2.056s] -- Up-to-date symlink: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/package.xml
+[2.056s] -- Up-to-date: /home/rumy/acrome_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so
+[2.056s] -- Up-to-date: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport.cmake
+[2.056s] -- Up-to-date: /home/rumy/acrome_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport-noconfig.cmake
+[2.529s] Invoked command in '/home/rumy/acrome_ws/build/steering_controllers_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/steering_controllers_library

@@ -1,0 +1,66 @@
+[0.052s] Invoking command in '/home/rumy/acrome_ws/build/pose_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/pose_broadcaster -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/pose_broadcaster
+[3.065s] -- The C compiler identification is GNU 13.3.0
+[3.067s] -- The CXX compiler identification is GNU 13.3.0
+[3.067s] -- Detecting C compiler ABI info
+[3.067s] -- Detecting C compiler ABI info - done
+[3.068s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.068s] -- Detecting C compile features
+[3.068s] -- Detecting C compile features - done
+[3.068s] -- Detecting CXX compiler ABI info
+[3.068s] -- Detecting CXX compiler ABI info - done
+[3.068s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.068s] -- Detecting CXX compile features
+[3.069s] -- Detecting CXX compile features - done
+[3.070s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[3.070s] -- Compiler warnings enabled for GNU
+[3.070s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[3.070s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.070s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.070s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[3.070s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.071s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.071s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.071s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.071s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.071s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.072s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.072s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.072s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.072s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.072s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.072s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.073s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.073s] -- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[3.073s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[3.073s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[3.073s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[3.074s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.074s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.074s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.074s] -- Configuring done (2.8s)
+[3.074s] -- Generating done (0.1s)
+[3.075s] -- Build files have been written to: /home/rumy/acrome_ws/build/pose_broadcaster
+[3.118s] Invoked command in '/home/rumy/acrome_ws/build/pose_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/pose_broadcaster -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/pose_broadcaster
+[3.119s] Invoking command in '/home/rumy/acrome_ws/build/pose_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/pose_broadcaster -- -j12 -l12
+[3.229s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.229s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.229s] [ 23%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/pose_broadcaster/include/pose_broadcaster/pose_broadcaster_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/pose_broadcaster/src/pose_broadcaster_parameters.yaml `[0m
+[3.229s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[6.250s] [ 38%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/pose_broadcaster/include/pose_broadcaster_parameters.hpp[0m
+[6.309s] [ 38%] Built target pose_broadcaster_parameters
+[8.806s] [ 46%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.905s] [ 46%] Built target gmock_main
+[11.470s] [ 53%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.576s] [ 53%] Built target gmock
+[11.614s] [ 61%] [32mBuilding CXX object CMakeFiles/pose_broadcaster.dir/src/pose_broadcaster.cpp.o[0m
+[22.827s] [ 69%] [32m[1mLinking CXX shared library libpose_broadcaster.so[0m
+[23.556s] [ 69%] Built target pose_broadcaster
+[23.595s] [ 76%] [32mBuilding CXX object CMakeFiles/test_pose_broadcaster.dir/test/test_pose_broadcaster.cpp.o[0m
+[23.597s] [ 84%] [32mBuilding CXX object CMakeFiles/test_load_pose_broadcaster.dir/test/test_load_pose_broadcaster.cpp.o[0m
+[34.064s] [ 92%] [32m[1mLinking CXX executable test_load_pose_broadcaster[0m
+[34.512s] [ 92%] Built target test_load_pose_broadcaster
+[40.744s] [100%] [32m[1mLinking CXX executable test_pose_broadcaster[0m
+[41.644s] [100%] Built target test_pose_broadcaster

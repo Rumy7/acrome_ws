@@ -1,0 +1,68 @@
+[0.082s] Invoking command in '/home/rumy/acrome_ws/build/parallel_gripper_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/parallel_gripper_controller
+[0.107s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.107s] -- Compiler warnings enabled for GNU
+[0.107s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.107s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.393s] -- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.428s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.446s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.747s] -- Found control_toolbox: 4.5.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[0.803s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.806s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.923s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.167s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.169s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.286s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.363s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.364s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.483s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.484s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.487s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.491s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.692s] -- Configuring done (1.6s)
+[1.788s] -- Generating done (0.1s)
+[1.802s] -- Build files have been written to: /home/rumy/acrome_ws/build/parallel_gripper_controller
+[1.837s] Invoked command in '/home/rumy/acrome_ws/build/parallel_gripper_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rumy/acrome_ws/src/ros2_controllers/parallel_gripper_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rumy/acrome_ws/install/parallel_gripper_controller
+[1.837s] Invoking command in '/home/rumy/acrome_ws/build/parallel_gripper_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/parallel_gripper_controller -- -j12 -l12
+[2.063s] [ 15%] Built target parallel_gripper_action_controller_parameters
+[2.063s] [ 38%] Built target gmock
+[2.063s] [ 53%] Built target gmock_main
+[2.063s] [ 69%] Built target parallel_gripper_action_controller
+[2.063s] [ 84%] Built target test_load_parallel_gripper_action_controllers
+[2.073s] [100%] Built target test_parallel_gripper_controller
+[2.092s] Invoked command in '/home/rumy/acrome_ws/build/parallel_gripper_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/parallel_gripper_controller -- -j12 -l12
+[2.092s] Invoking command in '/home/rumy/acrome_ws/build/parallel_gripper_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/parallel_gripper_controller
+[2.433s] -- Install configuration: ""
+[2.434s] -- Execute custom install script
+[2.434s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/include/parallel_gripper_controller/parallel_gripper_action_controller_parameters.hpp
+[2.435s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller//ros_control_plugins.xml
+[2.435s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/include/parallel_gripper_action_controller/parallel_gripper_controller/parallel_gripper_action_controller.hpp
+[2.435s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/include/parallel_gripper_action_controller/parallel_gripper_controller/parallel_gripper_action_controller_impl.hpp
+[2.436s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/library_path.sh
+[2.436s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/library_path.dsv
+[2.436s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/package_run_dependencies/parallel_gripper_controller
+[2.437s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/parent_prefix_path/parallel_gripper_controller
+[2.437s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/ament_prefix_path.sh
+[2.437s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/ament_prefix_path.dsv
+[2.437s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/path.sh
+[2.438s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/environment/path.dsv
+[2.438s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.bash
+[2.438s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.sh
+[2.460s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.zsh
+[2.484s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/local_setup.dsv
+[2.506s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/package.dsv
+[2.551s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/packages/parallel_gripper_controller
+[2.574s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/parallel_gripper_controller
+[2.603s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.614s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/ament_cmake_export_targets-extras.cmake
+[2.627s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/parallel_gripper_controllerConfig.cmake
+[2.661s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/parallel_gripper_controllerConfig-version.cmake
+[2.665s] -- Symlinking: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/package.xml
+[2.680s] -- Installing: /home/rumy/acrome_ws/install/parallel_gripper_controller/lib/libparallel_gripper_action_controller.so
+[2.682s] -- Set non-toolchain portion of runtime path of "/home/rumy/acrome_ws/install/parallel_gripper_controller/lib/libparallel_gripper_action_controller.so" to ""
+[2.683s] -- Installing: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/export_parallel_gripper_action_controllerExport.cmake
+[2.683s] -- Installing: /home/rumy/acrome_ws/install/parallel_gripper_controller/share/parallel_gripper_controller/cmake/export_parallel_gripper_action_controllerExport-noconfig.cmake
+[2.765s] Invoked command in '/home/rumy/acrome_ws/build/parallel_gripper_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rumy/acrome_ws/build/parallel_gripper_controller

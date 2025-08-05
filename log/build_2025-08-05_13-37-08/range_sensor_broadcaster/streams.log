@@ -1,0 +1,44 @@
+[0.034s] Invoking command in '/home/rumy/acrome_ws/build/range_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rumy/acrome_ws/install/rqt_joint_trajectory_controller:/home/rumy/acrome_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rumy/acrome_ws/build/range_sensor_broadcaster -- -j12 -l12
+[14.270s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[14.270s] -- Compiler warnings enabled for GNU
+[14.270s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[14.271s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[14.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.271s] -- Found controller_interface: 4.32.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[14.271s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[14.271s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[14.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.271s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[14.271s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[14.272s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[14.272s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[14.272s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[14.272s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[14.272s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[14.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.272s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[14.272s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[14.272s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[14.273s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[14.273s] -- Found ros2_control_test_assets: 4.32.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[14.273s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[14.273s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[14.273s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.273s] -- Configuring done (2.0s)
+[14.277s] -- Generating done (0.1s)
+[14.277s] -- Build files have been written to: /home/rumy/acrome_ws/build/range_sensor_broadcaster
+[14.277s] [  7%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/rumy/acrome_ws/build/range_sensor_broadcaster/include/range_sensor_broadcaster/range_sensor_broadcaster_parameters.hpp /home/rumy/acrome_ws/src/ros2_controllers/range_sensor_broadcaster/src/range_sensor_broadcaster_parameters.yaml `[0m
+[14.277s] [ 23%] Built target gmock_main
+[14.277s] [ 46%] Built target gmock
+[14.277s] [ 53%] [34m[1mCreating deprecated header file /home/rumy/acrome_ws/build/range_sensor_broadcaster/include/range_sensor_broadcaster_parameters.hpp[0m
+[14.277s] [ 53%] Built target range_sensor_broadcaster_parameters
+[14.277s] [ 61%] [32mBuilding CXX object CMakeFiles/range_sensor_broadcaster.dir/src/range_sensor_broadcaster.cpp.o[0m
+[16.381s] [ 69%] [32m[1mLinking CXX shared library librange_sensor_broadcaster.so[0m
+[17.010s] [ 69%] Built target range_sensor_broadcaster
+[17.106s] [ 76%] [32mBuilding CXX object CMakeFiles/test_load_range_sensor_broadcaster.dir/test/test_load_range_sensor_broadcaster.cpp.o[0m
+[17.111s] [ 84%] [32mBuilding CXX object CMakeFiles/test_range_sensor_broadcaster.dir/test/test_range_sensor_broadcaster.cpp.o[0m
+[27.659s] [ 92%] [32m[1mLinking CXX executable test_load_range_sensor_broadcaster[0m
+[28.243s] [ 92%] Built target test_load_range_sensor_broadcaster
+[30.874s] [100%] [32m[1mLinking CXX executable test_range_sensor_broadcaster[0m
+[31.535s] [100%] Built target test_range_sensor_broadcaster

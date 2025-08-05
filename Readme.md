@@ -27,7 +27,7 @@ source install/setup.bash
 ```
 #### launch dosyasının urdf dosyasına erişebilmesi için ####
 ```
-cd ~/acrome_ws/acrome_mini_robot/src/acrome_mini_robot/urdf
+cd ~/acrome_ws/src/acrome_mini_robot/urdf
 chmod +x acrome_mini_robot.urdf
 ```
 #### acrome mobile robotunun spawn olduğu simülasyonu açmak için ####

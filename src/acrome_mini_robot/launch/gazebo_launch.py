@@ -1,17 +1,28 @@
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess
+from launch.actions import ExecuteProcess, SetEnvironmentVariable
 from launch_ros.actions import Node
 import os
 
 def generate_launch_description():
+    # Gazebo'nun paketleri bulması için GZ_SIM_RESOURCE_PATH ortam değişkenini ayarla
+    gz_resource_path = os.path.join(
+        os.getenv('HOME'),
+        'acrome_ws', 'src'
+        )
+
     urdf_path = os.path.join(
     os.getenv('HOME'),
     'acrome_ws', 'src', 'acrome_mini_robot', 'urdf', 'acrome_mini_robot.urdf'
-)
-
+    )
 
     return LaunchDescription([
-        # Gazebo Harmonic başlat
+        # GAZEBO_RESOURCE_PATH yerine GZ_SIM_RESOURCE_PATH kullanıldı
+        SetEnvironmentVariable(
+            name='GZ_SIM_RESOURCE_PATH',
+            value=gz_resource_path
+        ),
+
+         # Gazebo Harmonic başlat
         ExecuteProcess(
             cmd=['gz', 'sim', '-v4'],
             output='screen'

@@ -1,7 +1,6 @@
 # Acrome Mobil Robotun Gazeboya Entegresi #
 ```
 cd
-mkdir acrome_ws
 git clone https://github.com/Rumy7/acrome_mini_robot.git
 ```
 #### Build edilmiş mobil robot dosyalarını klonluyoruz ####

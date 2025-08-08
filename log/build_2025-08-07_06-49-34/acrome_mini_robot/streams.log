@@ -1,0 +1,48 @@
+[0.012s] Invoking command in '/home/halit/acrome_ws/build/acrome_mini_robot': /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4
+[0.066s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.233s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.300s] Error parsing '/home/halit/acrome_ws/src/acrome_mini_robot/package.xml':
+[1.931s] Traceback (most recent call last):
+[1.931s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.931s]     root = dom.parseString(data)
+[1.931s]            ^^^^^^^^^^^^^^^^^^^^^
+[1.931s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[1.931s]     return expatbuilder.parseString(string)
+[1.931s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.931s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[1.931s]     return builder.parseString(string)
+[1.931s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.931s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[1.931s]     parser.Parse(string, True)
+[1.931s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 16, column 14
+[1.931s] 
+[1.932s] During handling of the above exception, another exception occurred:
+[1.932s] 
+[1.932s] Traceback (most recent call last):
+[1.932s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.932s]     main()
+[1.932s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.932s]     raise e
+[1.932s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.932s]     package = parse_package_string(
+[1.933s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.933s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.933s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.933s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/halit/acrome_ws/src/acrome_mini_robot/package.xml':
+[1.933s] The manifest contains invalid XML:
+[1.933s] not well-formed (invalid token): line 16, column 14
+[1.959s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.959s]   execute_process(/usr/bin/python3
+[1.959s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.959s]   /home/halit/acrome_ws/src/acrome_mini_robot/package.xml
+[1.959s]   /home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/package.cmake)
+[1.959s]   returned error code 1
+[1.959s] Call Stack (most recent call first):
+[1.959s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.959s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.959s]   CMakeLists.txt:10 (ament_package)
+[1.959s] 
+[1.959s] [0m
+[1.959s] -- Configuring incomplete, errors occurred!
+[1.962s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.964s] Invoked command in '/home/halit/acrome_ws/build/acrome_mini_robot' returned '2': /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4

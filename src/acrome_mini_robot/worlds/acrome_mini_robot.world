@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>file:///home/halit/.gazebo/models/ground_plane</uri>
+    </include>
+    <include>
+      <uri>file:///home/halit/acrome_ws/src/acrome_mini_robot/urdf/acrome_mini_robot.urdf</uri>
+    </include>
+  </world>
+</sdf>

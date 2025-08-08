@@ -1,1 +1,1 @@
-/home/rumy/acrome_ws/src/acrome_mini_robot/launch/gazebo_launch.py
+/home/halit/acrome_ws/src/acrome_mini_robot/launch/gazebo_launch.py

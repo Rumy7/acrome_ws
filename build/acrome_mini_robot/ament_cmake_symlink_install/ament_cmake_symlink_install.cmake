@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rumy/acrome_ws/install/acrome_mini_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/halit/acrome_ws/install/acrome_mini_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rumy/acrome_ws/install/acrome_mini_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/halit/acrome_ws/install/acrome_mini_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rumy/acrome_ws/install/acrome_mini_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/halit/acrome_ws/install/acrome_mini_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/rumy/acrome_ws/install/acrome_mini_robot/${destination}")
+      set(destination "/home/halit/acrome_ws/install/acrome_mini_robot/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,47 +310,53 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "urdf" "meshes" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_directory("/home/rumy/acrome_ws/src/acrome_mini_robot" DIRECTORY "launch" "urdf" "meshes" "DESTINATION" "share/acrome_mini_robot")
+# install(DIRECTORY "launch" "DESTINATION" "share/acrome_mini_robot/")
+ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "launch" "DESTINATION" "share/acrome_mini_robot/")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(DIRECTORY "urdf" "DESTINATION" "share/acrome_mini_robot/")
+ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "urdf" "DESTINATION" "share/acrome_mini_robot/")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(DIRECTORY "config" "DESTINATION" "share/acrome_mini_robot/")
+ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "config" "DESTINATION" "share/acrome_mini_robot/")
+
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/acrome_mini_robot/environment")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/acrome_mini_robot/environment")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/acrome_mini_robot/environment")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/acrome_mini_robot/environment")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/acrome_mini_robot/environment")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/acrome_mini_robot/environment")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/acrome_mini_robot/environment")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/acrome_mini_robot")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/acrome_mini_robot")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/acrome_mini_robot")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/acrome_mini_robot")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/acrome_mini_robot")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/acrome_mini_robot")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/acrome_mini_robot")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/acrome_mini_robot")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/acrome_mini_robot")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/acrome_mini_robot")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig.cmake" "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig-version.cmake" "DESTINATION" "share/acrome_mini_robot/cmake")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig.cmake" "/home/rumy/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig-version.cmake" "DESTINATION" "share/acrome_mini_robot/cmake")
+# install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig.cmake" "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig-version.cmake" "DESTINATION" "share/acrome_mini_robot/cmake")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig.cmake" "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig-version.cmake" "DESTINATION" "share/acrome_mini_robot/cmake")
 
-# install(FILES "/home/rumy/acrome_ws/src/acrome_mini_robot/package.xml" "DESTINATION" "share/acrome_mini_robot")
-ament_cmake_symlink_install_files("/home/rumy/acrome_ws/src/acrome_mini_robot" FILES "/home/rumy/acrome_ws/src/acrome_mini_robot/package.xml" "DESTINATION" "share/acrome_mini_robot")
+# install(FILES "/home/halit/acrome_ws/src/acrome_mini_robot/package.xml" "DESTINATION" "share/acrome_mini_robot")
+ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/src/acrome_mini_robot/package.xml" "DESTINATION" "share/acrome_mini_robot")

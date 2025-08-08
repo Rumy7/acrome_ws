@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rumy/acrome_ws/src/acrome_mini_robot
+CMAKE_SOURCE_DIR = /home/halit/acrome_ws/src/acrome_mini_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rumy/acrome_ws/build/acrome_mini_robot
+CMAKE_BINARY_DIR = /home/halit/acrome_ws/build/acrome_mini_robot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rumy/acrome_ws/build/acrome_mini_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rumy/acrome_ws/src/acrome_mini_robot /home/rumy/acrome_ws/src/acrome_mini_robot /home/rumy/acrome_ws/build/acrome_mini_robot /home/rumy/acrome_ws/build/acrome_mini_robot /home/rumy/acrome_ws/build/acrome_mini_robot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/halit/acrome_ws/build/acrome_mini_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/halit/acrome_ws/src/acrome_mini_robot /home/halit/acrome_ws/src/acrome_mini_robot /home/halit/acrome_ws/build/acrome_mini_robot /home/halit/acrome_ws/build/acrome_mini_robot /home/halit/acrome_ws/build/acrome_mini_robot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

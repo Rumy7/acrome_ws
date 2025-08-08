@@ -1,1 +1,1 @@
-robot_state_publisher;ros_gz_sim
+robot_state_publisher;joint_state_publisher;gz_ros2_control;velocity_controllers;imu_sensor_broadcaster;joint_state_broadcaster;controller_manager;ros_gz_sim;ros_gz_bridge;ament_lint_auto;ament_lint_common

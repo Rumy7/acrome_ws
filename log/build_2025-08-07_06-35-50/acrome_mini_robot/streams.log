@@ -1,0 +1,48 @@
+[0.007s] Invoking command in '/home/halit/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/halit/acrome_ws/src/acrome_mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/halit/acrome_ws/install/acrome_mini_robot
+[0.084s] -- The C compiler identification is GNU 13.3.0
+[0.441s] -- The CXX compiler identification is GNU 13.3.0
+[0.759s] -- Detecting C compiler ABI info
+[0.917s] -- Detecting C compiler ABI info - done
+[0.922s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.922s] -- Detecting C compile features
+[0.922s] -- Detecting C compile features - done
+[0.964s] -- Detecting CXX compiler ABI info
+[1.159s] -- Detecting CXX compiler ABI info - done
+[1.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.164s] -- Detecting CXX compile features
+[1.164s] -- Detecting CXX compile features - done
+[1.167s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.271s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.322s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.414s] -- Configuring done (1.4s)
+[1.416s] -- Generating done (0.0s)
+[1.418s] -- Build files have been written to: /home/halit/acrome_ws/build/acrome_mini_robot
+[1.421s] Invoked command in '/home/halit/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/halit/acrome_ws/src/acrome_mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/halit/acrome_ws/install/acrome_mini_robot
+[1.422s] Invoking command in '/home/halit/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4
+[1.449s] Invoked command in '/home/halit/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4
+[1.455s] Invoking command in '/home/halit/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/halit/acrome_ws/build/acrome_mini_robot
+[1.460s] -- Install configuration: ""
+[1.461s] -- Execute custom install script
+[1.462s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/display.launch
+[1.467s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo.launch
+[1.474s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/launch/gazebo_launch.py
+[1.480s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/urdf/acrome_mini_robot.urdf
+[1.486s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/base_link.stl
+[1.492s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/left_wheel.stl
+[1.497s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/meshes/right_wheel.stl
+[1.504s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
+[1.511s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
+[1.517s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh
+[1.523s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.dsv
+[1.529s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.sh
+[1.535s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.dsv
+[1.541s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.bash
+[1.547s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.sh
+[1.554s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.zsh
+[1.560s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.dsv
+[1.566s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.dsv
+[1.573s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/packages/acrome_mini_robot
+[1.580s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig.cmake
+[1.586s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig-version.cmake
+[1.591s] -- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.xml
+[1.598s] Invoked command in '/home/halit/acrome_ws/build/acrome_mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/halit/acrome_ws/build/acrome_mini_robot

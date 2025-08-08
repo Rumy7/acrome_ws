@@ -1,0 +1,21 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+wheel_velocity_controller:
+  ros__parameters:
+    type: velocity_controllers/JointGroupVelocityController
+    joints:
+      - base_to_wheel_1
+      - base_to_wheel_2
+      - base_to_wheel_3
+    interface_name: velocity
+
+imu_sensor_broadcaster:
+  ros__parameters:
+    type: imu_sensor_broadcaster/IMUSensorBroadcaster
+    sensor_name: acrome_imu_sensor
+    frame_id: imu

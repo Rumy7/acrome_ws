@@ -1,6 +1,5 @@
 <?xml version="1.0" ?>
 <robot name="acrome_mini_robot">
-  <link name="world"/>
   
   <!-- Ana robot gövdesi -->
   <link name="base_link">
@@ -9,6 +8,9 @@
         <cylinder radius="0.25" length="0.15"/>
       </geometry>
       <origin xyz="0 0 0.075" rpy="0 0 0"/>
+      <material name="blue">
+        <color rgba="0.2 0.2 0.8 1"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -19,7 +21,7 @@
     <inertial>
       <mass value="5.0"/>
       <origin xyz="0 0 0.075" rpy="0 0 0"/>
-      <inertia ixx="0.2" ixy="0.0" ixz="0.0" iyy="0.2" iyz="0.0" izz="0.3"/>
+      <inertia ixx="0.2083" ixy="0.0" ixz="0.0" iyy="0.2083" iyz="0.0" izz="0.3125"/>
     </inertial>
   </link>
 
@@ -30,6 +32,9 @@
         <cylinder radius="0.08" length="0.04"/>
       </geometry>
       <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -39,8 +44,8 @@
     </collision>
     <inertial>
       <mass value="0.5"/>
-      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0032" ixy="0.0" ixz="0.0" iyy="0.0032" iyz="0.0" izz="0.0032"/>
     </inertial>
   </link>
 
@@ -51,6 +56,9 @@
         <cylinder radius="0.08" length="0.04"/>
       </geometry>
       <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -60,8 +68,8 @@
     </collision>
     <inertial>
       <mass value="0.5"/>
-      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0032" ixy="0.0" ixz="0.0" iyy="0.0032" iyz="0.0" izz="0.0032"/>
     </inertial>
   </link>
 
@@ -72,6 +80,9 @@
         <cylinder radius="0.08" length="0.04"/>
       </geometry>
       <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
     </visual>
     <collision>
       <geometry>
@@ -81,178 +92,152 @@
     </collision>
     <inertial>
       <mass value="0.5"/>
-      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
-      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0032" ixy="0.0" ixz="0.0" iyy="0.0032" iyz="0.0" izz="0.0032"/>
     </inertial>
   </link>
 
-  <!-- World'e sabit bağlantı -->
-  <joint name="world_to_base" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0.08"/>
-    <parent link="world"/>
-    <child link="base_link"/>
-  </joint>
-
-  <!-- Tekerlek joint'leri - Cart-pole'daki slider_to_cart gibi kontrol edilebilir -->
+  <!-- Tekerlek joint'leri -->
   <joint name="base_to_wheel_1" type="continuous">
-    <axis xyz="0 1 0"/>
-    <origin xyz="0.2 0 0" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="wheel_1"/>
-    <dynamics damping="0.2" friction="0.2"/>
+    <origin xyz="0.2 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <dynamics damping="0.7" friction="0.1"/>
   </joint>
 
   <joint name="base_to_wheel_2" type="continuous">
-    <axis xyz="0 1 0"/>
-    <origin xyz="-0.1 0.173 0" rpy="0 0 2.094"/>
     <parent link="base_link"/>
     <child link="wheel_2"/>
-    <dynamics damping="0.2" friction="0.2"/>
+    <origin xyz="-0.1 0.173 0" rpy="0 0 2.094"/>
+    <axis xyz="0 1 0"/>
+    <dynamics damping="0.7" friction="0.1"/>
   </joint>
 
   <joint name="base_to_wheel_3" type="continuous">
-    <axis xyz="0 1 0"/>
-    <origin xyz="-0.1 -0.173 0" rpy="0 0 -2.094"/>
     <parent link="base_link"/>
     <child link="wheel_3"/>
-    <dynamics damping="0.2" friction="0.2"/>
+    <origin xyz="-0.1 -0.173 0" rpy="0 0 -2.094"/>
+    <axis xyz="0 1 0"/>
+    <dynamics damping="0.7" friction="0.1"/>
   </joint>
 
-  <!-- IMU sensörü - cart-pole'daki gibi -->
-  <link name="imu">
+  <!-- IMU sensörü -->
+  <link name="imu_link">
     <inertial>
-      <mass value="0.1"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.001"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
     </inertial>
+    <visual>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
   </link>
 
   <joint name="base_to_imu" type="fixed">
-    <origin xyz="0.0 0.0 0.1"/>
     <parent link="base_link"/>
-    <child link="imu"/>
-    <dynamics damping="0.0" friction="0.0"/>
+    <child link="imu_link"/>
+    <origin xyz="0.0 0.0 0.15"/>
   </joint>
 
-  <!-- Gazebo IMU sensörü konfigürasyonu -->
-  <gazebo reference="imu">
-    <sensor name="acrome_imu_sensor" type="imu">
-      <always_on>1</always_on>
-      <update_rate>50.0</update_rate>
-      <visualize>true</visualize>
-      <topic>imu</topic>
-    </sensor>
-  </gazebo>
-
-  <!-- ROS2 Control - Cart-pole sistemine uygun -->
+  <!-- ROS2 Control -->
   <ros2_control name="GazeboSimSystem" type="system">
     <hardware>
       <plugin>gz_ros2_control/GazeboSimSystem</plugin>
     </hardware>
     
-    <!-- Tekerlek 1 kontrol arayüzleri -->
     <joint name="base_to_wheel_1">
       <command_interface name="velocity">
         <param name="min">-10</param>
         <param name="max">10</param>
       </command_interface>
-      <state_interface name="position">
-        <param name="initial_value">0.0</param>
-      </state_interface>
+      <state_interface name="position"/>
       <state_interface name="velocity"/>
       <state_interface name="effort"/>
     </joint>
 
-    <!-- Tekerlek 2 kontrol arayüzleri -->
     <joint name="base_to_wheel_2">
       <command_interface name="velocity">
         <param name="min">-10</param>
         <param name="max">10</param>
       </command_interface>
-      <state_interface name="position">
-        <param name="initial_value">0.0</param>
-      </state_interface>
+      <state_interface name="position"/>
       <state_interface name="velocity"/>
       <state_interface name="effort"/>
     </joint>
 
-    <!-- Tekerlek 3 kontrol arayüzleri -->
     <joint name="base_to_wheel_3">
       <command_interface name="velocity">
         <param name="min">-10</param>
         <param name="max">10</param>
       </command_interface>
-      <state_interface name="position">
-        <param name="initial_value">0.0</param>
-      </state_interface>
+      <state_interface name="position"/>
       <state_interface name="velocity"/>
       <state_interface name="effort"/>
     </joint>
-
-    <!-- IMU sensörü durum arayüzleri -->
-    <sensor name="acrome_imu_sensor">
-      <state_interface name="orientation.x"/>
-      <state_interface name="orientation.y"/>
-      <state_interface name="orientation.z"/>
-      <state_interface name="orientation.w"/>
-      <state_interface name="angular_velocity.x"/>
-      <state_interface name="angular_velocity.y"/>
-      <state_interface name="angular_velocity.z"/>
-      <state_interface name="linear_acceleration.x"/>
-      <state_interface name="linear_acceleration.y"/>
-      <state_interface name="linear_acceleration.z"/>
-    </sensor>
   </ros2_control>
-
-  <!-- Gazebo görsel materyaller -->
-  <gazebo reference="base_link">
-    <visual>
-      <material>
-        <ambient>0.2 0.2 0.8 1</ambient>
-        <diffuse>0.2 0.2 0.8 1</diffuse>
-        <specular>0.2 0.2 0.8 1</specular>
-      </material>
-    </visual>
-  </gazebo>
-
-  <gazebo reference="wheel_1">
-    <visual>
-      <material>
-        <ambient>0.1 0.1 0.1 1</ambient>
-        <diffuse>0.1 0.1 0.1 1</diffuse>
-        <specular>0.1 0.1 0.1 1</specular>
-      </material>
-    </visual>
-  </gazebo>
-
-  <gazebo reference="wheel_2">
-    <visual>
-      <material>
-        <ambient>0.1 0.1 0.1 1</ambient>
-        <diffuse>0.1 0.1 0.1 1</diffuse>
-        <specular>0.1 0.1 0.1 1</specular>
-      </material>
-    </visual>
-  </gazebo>
-
-  <gazebo reference="wheel_3">
-    <visual>
-      <material>
-        <ambient>0.1 0.1 0.1 1</ambient>
-        <diffuse>0.1 0.1 0.1 1</diffuse>
-        <specular>0.1 0.1 0.1 1</specular>
-      </material>
-    </visual>
-  </gazebo>
 
   <!-- Gazebo pluginleri -->
   <gazebo>
-    <!-- ROS2 Control plugin -->
     <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
       <parameters>$(find acrome_mini_robot)/config/acrome_controller.yaml</parameters>
     </plugin>
-    
-    <!-- IMU plugin -->
-    <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu">
-    </plugin>
   </gazebo>
+
+  <!-- Gazebo specific ayarları -->
+  <gazebo reference="base_link">
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="wheel_1">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="wheel_2">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="wheel_3">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="imu_link">
+    <gravity>true</gravity>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>1</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>__default_topic__</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <topicName>imu</topicName>
+        <bodyName>imu_link</bodyName>
+        <updateRateHZ>10.0</updateRateHZ>
+        <gaussianNoise>0.0</gaussianNoise>
+        <xyzOffset>0 0 0</xyzOffset>
+        <rpyOffset>0 0 0</rpyOffset>
+        <frameName>imu_link</frameName>
+      </plugin>
+      <pose>0 0 0 0 0 0</pose>
+    </sensor>
+  </gazebo>
+
 </robot>

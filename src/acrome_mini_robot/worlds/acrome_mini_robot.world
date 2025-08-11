@@ -1,11 +1,32 @@
-<?xml version="1.0" ?>
 <sdf version="1.6">
   <world name="default">
-    <include>
-      <uri>file:///home/halit/.gazebo/models/ground_plane</uri>
-    </include>
-    <include>
-      <uri>file:///home/halit/acrome_ws/src/acrome_mini_robot/urdf/acrome_mini_robot.urdf</uri>
-    </include>
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <physics type="ode"/>
   </world>
 </sdf>

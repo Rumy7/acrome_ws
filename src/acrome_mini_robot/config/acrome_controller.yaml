@@ -9,7 +9,6 @@ wheel_velocity_controller:
   ros__parameters:
     type: velocity_controllers/JointGroupVelocityController
     joints:
-      - base_to_wheel_1
       - base_to_wheel_2
       - base_to_wheel_3
     interface_name: velocity

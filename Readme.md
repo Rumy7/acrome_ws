@@ -39,6 +39,6 @@ ros2 launch acrome_mini_robot gazebo_launch.py
 #### robotu çalıştırabilmek için iki ayrı terminalde sırasıyla ####
 ```
 ros2 launch acrome_mini_robot gazebo_launch.py
-ros2 topic pub /wheel_velocity_controller/commands std_msgs/msg/Float64MultiArray "data: [2.5, -1.25, -1.25]"
+python3 /path_to_robot_controller.py
 ```
 #### komut satırlarını çalıştır ####

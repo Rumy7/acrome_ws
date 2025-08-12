@@ -13,9 +13,3 @@ wheel_velocity_controller:
       - base_to_wheel_2
       - base_to_wheel_3
     interface_name: velocity
-
-imu_sensor_broadcaster:
-  ros__parameters:
-    type: imu_sensor_broadcaster/IMUSensorBroadcaster
-    sensor_name: acrome_imu_sensor
-    frame_id: imu

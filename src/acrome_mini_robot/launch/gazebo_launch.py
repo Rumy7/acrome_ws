@@ -84,17 +84,6 @@ def generate_launch_description():
             robot_controllers,
         ],
     )
-    
-    # IMU sensor broadcaster
-    imu_sensor_broadcaster_spawner = Node(
-        package='controller_manager',
-        executable='spawner',
-        arguments=[
-            'imu_sensor_broadcaster',
-            '--param-file',
-            robot_controllers,
-        ],
-    )
 
     # ROS-Gazebo bridge
     bridge = Node(
@@ -125,8 +114,7 @@ def generate_launch_description():
         RegisterEventHandler(
             event_handler=OnProcessExit(
                 target_action=joint_state_broadcaster_spawner,
-                on_exit=[wheel_velocity_controller_spawner,
-                         imu_sensor_broadcaster_spawner],
+                on_exit=[wheel_velocity_controller_spawner],
             )
         ),
         

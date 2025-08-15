@@ -6,6 +6,7 @@ from sensor_msgs.msg import LaserScan
 import sys
 import termios
 import tty
+from threading import Thread
 
 def get_key():
     fd = sys.stdin.fileno()
@@ -26,7 +27,7 @@ class TeleopNode(Node):
             '/scan',
             self.lidar_callback,
             10)
-        self.speed = 3  # m/s eşdeğeri, seninkine göre ayarla
+        self.speed = 3  # m/s eşdeğeri, robotuna göre ayarla
         self.get_logger().info("WASD ile kontrol başlatıldı. 'q' ile çık.")
 
         # Dosya yolunu belirt
@@ -39,7 +40,7 @@ class TeleopNode(Node):
         self.get_logger().info(f"Komut gönderildi: {msg.data}")
 
     def lidar_callback(self, msg: LaserScan):
-        ranges_sample = msg.ranges[:10]
+        ranges_sample = msg.ranges[:10]  # İlk 10 lidar verisini al
         timestamp = self.get_clock().now().to_msg().sec + self.get_clock().now().to_msg().nanosec * 1e-9
         line = f"{timestamp}," + ",".join(f"{r:.3f}" for r in ranges_sample) + "\n"
         self.lidar_file.write(line)
@@ -53,6 +54,13 @@ class TeleopNode(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = TeleopNode()
+
+    # Lidar verilerini ayrı thread ile spin et
+    def spin_thread(node):
+        rclpy.spin(node)
+
+    thread = Thread(target=spin_thread, args=(node,), daemon=True)
+    thread.start()
 
     try:
         while rclpy.ok():

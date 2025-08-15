@@ -1,5 +1,6 @@
 <sdf version="1.6">
   <world name="default">
+    <!-- Zemin -->
     <model name="ground_plane">
       <static>true</static>
       <link name="link">
@@ -27,6 +28,101 @@
         </visual>
       </link>
     </model>
+
+    <!-- Duvarlarla çevrili alan -->
+    <model name="walled_area">
+      <static>true</static>
+
+      <!-- Ön duvar -->
+      <link name="front_wall">
+        <pose>0 5 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Arka duvar -->
+      <link name="back_wall">
+        <pose>0 -5 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Sol duvar -->
+      <link name="left_wall">
+        <pose>-5 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 10 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 10 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Sağ duvar -->
+      <link name="right_wall">
+        <pose>5 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 10 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 10 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Fizik motoru -->
     <physics type="ode"/>
   </world>
 </sdf>

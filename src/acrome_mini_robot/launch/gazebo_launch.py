@@ -21,6 +21,7 @@ from launch.substitutions import Command, FindExecutable, LaunchConfiguration, P
 
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
@@ -35,11 +36,15 @@ def generate_launch_description():
             ' ',
             PathJoinSubstitution(
                 [FindPackageShare('acrome_mini_robot'),
-                 'urdf', 'acrome_mini_robot.xacro.urdf']
+                 'urdf', 'acrome_mini_robot.xacro']
             ),
         ]
     )
-    robot_description = {'robot_description': robot_description_content}
+    robot_description = {
+    'robot_description': ParameterValue(
+        robot_description_content,
+        value_type=str)
+    }
     
     # Controller config
     robot_controllers = PathJoinSubstitution(
@@ -89,7 +94,9 @@ def generate_launch_description():
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock'],
+        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+                   '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan'
+        ],
         output='screen'
     )
 

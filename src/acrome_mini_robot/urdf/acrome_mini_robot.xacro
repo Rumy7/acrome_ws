@@ -1,5 +1,11 @@
-<?xml version="1.0" ?>
-<robot name="acrome_mini_robot">
+<?xml version="1.0"?>
+<robot name="acrome_mini_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Parametreler -->
+  <xacro:property name="lidar_radius" value="0.03"/>
+  <xacro:property name="lidar_height" value="0.04"/>
+  <xacro:property name="lidar_mass" value="0.2"/>
+  <xacro:property name="PI" value="3.141592653589793"/>
 
   <!-- Ana robot gövdesi -->
   <link name="base_link">
@@ -25,6 +31,34 @@
     </inertial>
   </link>
 
+  <!-- Lidar -->
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${lidar_radius}" length="${lidar_height}"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="gray"><color rgba="0.5 0.5 0.5 1"/></material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${lidar_radius}" length="${lidar_height}"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="${lidar_mass}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_lidar" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0.0065 0.13" rpy="0 0 0"/>
+  </joint>
+
   <!-- caster wheel -->
   <link name="wheel_1">
     <visual>
@@ -38,7 +72,7 @@
     </visual>
     <collision>
       <geometry>
-        <sphere radius="0.025" length="0.025"/>
+        <sphere radius="0.025"/>
       </geometry>
       <origin xyz="0 0 0" rpy="0 1.5708 0"/>
     </collision>
@@ -49,7 +83,7 @@
     </inertial>
   </link>
 
-  <!-- Tekerlek 2 (Sol arka - 120 derece) -->
+  <!-- Tekerlek 2 -->
   <link name="wheel_2">
     <visual>
       <geometry>
@@ -73,7 +107,7 @@
     </inertial>
   </link>
 
-  <!-- Tekerlek 3 (Sağ arka - 240 derece) -->
+  <!-- Tekerlek 3 -->
   <link name="wheel_3">
     <visual>
       <geometry>
@@ -97,7 +131,7 @@
     </inertial>
   </link>
 
-  <!-- Tekerlek joint'leri -->
+  <!-- Jointler -->
   <joint name="base_to_wheel_1" type="continuous">
     <parent link="base_link"/>
     <child link="wheel_1"/>
@@ -122,13 +156,11 @@
     <dynamics damping="0.7" friction="0.1"/>
   </joint>
 
-
   <!-- ROS2 Control -->
   <ros2_control name="GazeboSimSystem" type="system">
     <hardware>
       <plugin>gz_ros2_control/GazeboSimSystem</plugin>
     </hardware>
-    
     <joint name="base_to_wheel_1">
       <command_interface name="velocity">
         <param name="min">-10</param>
@@ -138,7 +170,6 @@
       <state_interface name="velocity"/>
       <state_interface name="effort"/>
     </joint>
-
     <joint name="base_to_wheel_2">
       <command_interface name="velocity">
         <param name="min">-10</param>
@@ -148,7 +179,6 @@
       <state_interface name="velocity"/>
       <state_interface name="effort"/>
     </joint>
-
     <joint name="base_to_wheel_3">
       <command_interface name="velocity">
         <param name="min">-10</param>
@@ -167,11 +197,49 @@
     </plugin>
   </gazebo>
 
-  <!-- Gazebo specific ayarları -->
+  <!-- Gazebo ayarları -->
   <gazebo reference="base_link">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
     <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="lidar_link">
+    <material>Gazebo/Black</material>
+    <sensor name="lidar_sensor" type="gpu_lidar">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-${PI}</min_angle>
+            <max_angle>${PI}</max_angle>
+          </horizontal>
+          <vertical>
+            <samples>1</samples>
+            <resolution>1</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>0</max_angle>
+          </vertical>
+        </scan>
+        <range>
+          <min>0.12</min>
+          <max>12.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+      <always_on>1</always_on>
+      <topic>/scan</topic>
+      <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+        <ros>
+          <topic>scan</topic>
+          <sensor_frame>lidar_link</sensor_frame>
+        </ros>
+      </plugin>
+    </sensor>
   </gazebo>
 
   <gazebo reference="wheel_1">

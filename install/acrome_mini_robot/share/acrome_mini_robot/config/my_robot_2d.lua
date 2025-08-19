@@ -1,0 +1,1 @@
+/home/halit/acrome_ws/src/acrome_mini_robot/config/my_robot_2d.lua

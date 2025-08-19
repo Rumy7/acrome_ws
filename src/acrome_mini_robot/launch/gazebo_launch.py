@@ -60,7 +60,7 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='screen',
-        parameters=[robot_description]
+        parameters=[robot_description, {'use_sim_time': use_sim_time}]
     )
 
     # Spawn robot in Gazebo
@@ -77,6 +77,7 @@ def generate_launch_description():
         package='controller_manager',
         executable='spawner',
         arguments=['joint_state_broadcaster'],
+        parameters=[{'use_sim_time': use_sim_time}]
     )
     
     # Tek grup velocity controller (3 teker birden)
@@ -88,6 +89,34 @@ def generate_launch_description():
             '--param-file',
             robot_controllers,
         ],
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
+    # SLAM Toolbox
+    slam_params = PathJoinSubstitution(
+        [FindPackageShare('acrome_mini_robot'), 'config', 'slam_params.yaml']
+    )
+
+    slam_toolbox_node = Node(
+        package='slam_toolbox',
+        executable='sync_slam_toolbox_node',   # mapping için sync/online_async ikisi de olur
+        name='slam_toolbox',
+        output='screen',
+        parameters=[slam_params, {'use_sim_time': use_sim_time}]
+    )
+
+    # RViz aç
+    rviz_config = PathJoinSubstitution(
+        [FindPackageShare('acrome_mini_robot'), 'rviz', 'acrome_config.rviz']
+    )
+
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', rviz_config],
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
     )
 
     # ROS-Gazebo bridge
@@ -97,10 +126,22 @@ def generate_launch_description():
         arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
                    '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan'
         ],
-        output='screen'
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
     )
 
     return LaunchDescription([
+        # Launch Arguments
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='true',
+            description='If true, use simulated clock'),
+            
+        DeclareLaunchArgument(
+            'gz_args',
+            default_value='',
+            description='Arguments for Gazebo'),
+
         # Launch gazebo
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -109,6 +150,11 @@ def generate_launch_description():
                                        'gz_sim.launch.py'])]),
             launch_arguments=[('gz_args', [gz_args, ' -r -v 1 /home/halit/acrome_ws/src/acrome_mini_robot/worlds/acrome_mini_robot.world'])]),
 
+        # Nodes
+        bridge,
+        node_robot_state_publisher,
+        gz_spawn_entity,
+        
         # Robot spawn edildikten sonra joint_state_broadcaster başlat
         RegisterEventHandler(
             event_handler=OnProcessExit(
@@ -125,14 +171,11 @@ def generate_launch_description():
             )
         ),
         
-        # Nodes
-        bridge,
-        node_robot_state_publisher,
-        gz_spawn_entity,
-        
-        # Launch Arguments
-        DeclareLaunchArgument(
-            'use_sim_time',
-            default_value=use_sim_time,
-            description='If true, use simulated clock'),
+        # SLAM ve RViz'i biraz gecikmeli başlat
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=wheel_velocity_controller_spawner,
+                on_exit=[slam_toolbox_node, rviz_node],
+            )
+        ),
     ])

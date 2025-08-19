@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/halit/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4
+[0.075s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.301s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.426s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.426s]   ament_python_install_package() the Python package folder
+[0.426s]   '/home/halit/acrome_ws/src/acrome_mini_robot/acrome_mini_robot' doesn't
+[0.426s]   contain an '__init__.py' file
+[0.434s] Call Stack (most recent call first):
+[0.435s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.435s]   CMakeLists.txt:15 (ament_python_install_package)
+[0.435s] 
+[0.435s] [0m
+[0.435s] -- Configuring incomplete, errors occurred!
+[0.437s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.440s] Invoked command in '/home/halit/acrome_ws/build/acrome_mini_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4

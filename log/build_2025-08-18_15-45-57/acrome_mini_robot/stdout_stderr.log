@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/display.launch
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/gazebo.launch
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/gazebo_launch.py
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/lidar_data.txt
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/robot_controller.py
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/lib/acrome_mini_robot/odometry_publisher.py
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//urdf/acrome_mini_robot.xacro
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//config/acrome_controller.yaml
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//config/slam_params.yaml
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.sh
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/path.dsv
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.bash
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.sh
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.zsh
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/local_setup.dsv
+-- Symlinking: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.dsv
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/packages/acrome_mini_robot
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig.cmake
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/cmake/acrome_mini_robotConfig-version.cmake
+-- Up-to-date symlink: /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/package.xml

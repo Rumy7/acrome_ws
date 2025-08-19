@@ -1,0 +1,2 @@
+Invoking command in '/home/halit/acrome_ws/build/acrome_mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4
+Invoked command in '/home/halit/acrome_ws/build/acrome_mini_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/halit/acrome_ws/build/acrome_mini_robot -- -j4 -l4

@@ -6,6 +6,7 @@
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//urdf/acrome_mini_robot.xacro
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//config/acrome_controller.yaml
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//config/slam_params.yaml
+/home/halit/acrome_ws/install/acrome_mini_robot/lib/acrome_mini_robot/odometry_publisher.py
 /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot
 /home/halit/acrome_ws/install/acrome_mini_robot/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/environment/ament_prefix_path.sh

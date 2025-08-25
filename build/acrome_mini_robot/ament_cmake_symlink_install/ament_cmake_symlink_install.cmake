@@ -319,6 +319,9 @@ ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_rob
 # install(DIRECTORY "config" "DESTINATION" "share/acrome_mini_robot/")
 ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "config" "DESTINATION" "share/acrome_mini_robot/")
 
+# install(PROGRAMS "nodes/odometry_publisher.py" "DESTINATION" "lib/acrome_mini_robot")
+ament_cmake_symlink_install_programs("/home/halit/acrome_ws/src/acrome_mini_robot" PROGRAMS "nodes/odometry_publisher.py" "DESTINATION" "lib/acrome_mini_robot")
+
 # install(FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/halit/acrome_ws/src/acrome_mini_robot" FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

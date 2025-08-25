@@ -42,3 +42,14 @@ ros2 launch acrome_mini_robot gazebo_launch.py
 python3 /path_to_robot_controller.py
 ```
 #### komut satırlarını çalıştır ####
+
+
+ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
+ros2 lifecycle set /slam_toolbox configure
+ros2 lifecycle set /slam_toolbox activate
+ros2 lifecycle get /slam_toolbox
+python3 src/acrome_mini_robot/launch/robot_controller.py
+
+
+ros2 topic echo /scan --once
+

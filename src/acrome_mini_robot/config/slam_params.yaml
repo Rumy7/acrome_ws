@@ -1,17 +1,65 @@
 slam_toolbox:
   ros__parameters:
+    # === Temel Ayarlar ===
     use_sim_time: true
     slam_mode: "mapping"
+    
+    # === Frame Ayarları (TF ağacınızla tutarlı) ===
     odom_frame: "odom"
-    map_frame: "map"
+    map_frame: "map" 
     base_frame: "base_link"
     scan_topic: "/scan"
+    
+    # === Yaşam Döngüsü ===
+    autostart: true
+    
+    # === Haritalama Ayarları ===
+    publish_occupancy_map: true
+    publish_map_transform: true
     resolution: 0.05
     max_laser_range: 10.0
-    minimum_travel_distance: 0.1
-    minimum_travel_heading: 0.17
-    transform_publish_period: 0.02
-    map_update_interval: 1.0
+    
+    # === Hareket Eşikleri ===
+    minimum_travel_distance: 0.1      # 10cm hareket gerekli
+    minimum_travel_heading: 0.17      # ~10 derece dönüş gerekli
+    
+    # === Güncelleme Sıklıkları ===
+    transform_publish_period: 0.02    # 50Hz transform yayını
+    map_update_interval: 1.0          # 1 saniyede bir harita güncelleme
+    
+    # === Loop Closure Ayarları ===
     enable_loop_closure: true
-    use_scan_matching: true
     do_loop_closing: true
+    loop_search_maximum_distance: 4.0
+    loop_match_minimum_response_fine: 0.45
+    loop_match_maximum_variance_coarse: 0.35
+    
+    # === Scan Matching Ayarları ===
+    use_scan_matching: true
+    use_response_expansion: true
+    response_expansion_size: 1
+    
+    # === Karto Solver Ayarları ===
+    # Pozisyonel arama
+    correlation_search_space_dimension: 0.3
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.03
+    
+    # Açısal arama  
+    coarse_search_angle_offset: 0.349     # 20 derece
+    fine_search_angle_offset: 0.00349     # 0.2 derece
+    coarse_angle_resolution: 0.0349       # 2 derece
+    fine_angle_resolution: 0.00349        # 0.2 derece
+    
+    # === Optimizasyon Ayarları ===
+    optimizer_skip_count: 5
+    scan_buffer_size: 70
+    scan_buffer_maximum_scan_distance: 20.0
+    link_match_minimum_response_fine: 0.8
+    
+    # === İleri Sensor Ayarları ===
+    laser_range_threshold: 12.0
+    occupancy_grid_value_threshold: 65
+    
+    # === Debug Ayarları ===
+    debug_logging: false

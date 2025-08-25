@@ -13,11 +13,12 @@
 # limitations under the License.
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
-from launch.actions import RegisterEventHandler
-from launch.event_handlers import OnProcessExit
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, TimerAction, ExecuteProcess
+from launch.actions import RegisterEventHandler, LogInfo
+from launch.event_handlers import OnProcessExit, OnProcessStart
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
+from launch.conditions import IfCondition, LaunchConfigurationEquals
 
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
@@ -28,6 +29,7 @@ def generate_launch_description():
     # Launch Arguments
     use_sim_time = LaunchConfiguration('use_sim_time', default=True)
     gz_args = LaunchConfiguration('gz_args', default='')
+    slam_mode = LaunchConfiguration('slam_mode', default='mapping')  # mapping veya localization
 
     # Get URDF via xacro
     robot_description_content = Command(
@@ -79,6 +81,20 @@ def generate_launch_description():
         arguments=['joint_state_broadcaster'],
         parameters=[{'use_sim_time': use_sim_time}]
     )
+
+    # Odometry publisher node (önceki aynı kalıyor)
+    odometry_publisher_node = Node(
+        package='acrome_mini_robot',
+        executable='odometry_publisher.py',
+        name='odometry_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}],
+        # Frame isimleri doğru olduğundan emin olmak için
+        remappings=[
+            ('/tf', '/tf'),
+            ('/tf_static', '/tf_static')
+        ]
+    )
     
     # Tek grup velocity controller (3 teker birden)
     wheel_velocity_controller_spawner = Node(
@@ -92,22 +108,53 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}]
     )
 
-    # SLAM Toolbox
+    # SLAM Toolbox parametreleri
     slam_params = PathJoinSubstitution(
         [FindPackageShare('acrome_mini_robot'), 'config', 'slam_params.yaml']
     )
 
+    # SLAM Toolbox - sync_slam_toolbox_node daha kararlı
     slam_toolbox_node = Node(
         package='slam_toolbox',
-        executable='sync_slam_toolbox_node',   # mapping için sync/online_async ikisi de olur
+        executable='sync_slam_toolbox_node',  # sync kullan - daha kararlı
         name='slam_toolbox',
         output='screen',
-        parameters=[slam_params, {'use_sim_time': use_sim_time}]
+        parameters=[
+            slam_params, 
+            {'use_sim_time': use_sim_time},
+            {'slam_mode': slam_mode}
+        ],
+        remappings=[
+            ('/scan', '/scan'),
+            ('/tf', '/tf'),
+            ('/tf_static', '/tf_static'),
+            ('/odom', '/odom')
+        ]
     )
 
-    # RViz aç
+    # SLAM durumunu kontrol etme node'u (opsiyonel debug için)
+    slam_status_node = Node(
+        package='acrome_mini_robot',
+        executable='slam_status_monitor.py',  # Bu script'i aşağıda vereceğim
+        name='slam_status_monitor',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}],
+        condition=IfCondition(LaunchConfiguration('debug_slam'))  # debug modunda çalışsın
+    )
+
+    # Navigation stack için static transform publisher (isteğe bağlı)
+    # Eğer base_footprint kullanmak isterseniz
+    base_footprint_publisher = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='base_footprint_publisher',
+        arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'base_footprint'],
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
+    # RViz config
     rviz_config = PathJoinSubstitution(
-        [FindPackageShare('acrome_mini_robot'), 'rviz', 'acrome_config.rviz']
+        [FindPackageShare('acrome_mini_robot'), 'rviz', 'acrome_slam_config.rviz']  # SLAM için özel config
     )
 
     rviz_node = Node(
@@ -119,15 +166,31 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}]
     )
 
-    # ROS-Gazebo bridge
+    # ROS-Gazebo bridge - Düzeltilmiş format
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-                   '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan'
+        arguments=[
+            # Clock bridge
+            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+            # LaserScan bridge - doğru format
+            '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan',
+            # İsteğe bağlı diğer bridge'ler
+            '/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist',
         ],
         output='screen',
-        parameters=[{'use_sim_time': use_sim_time}]
+        parameters=[{'use_sim_time': use_sim_time}],
+        remappings=[
+            # Gazebo'dan gelen topic'leri ROS topic'lerine map et
+            ('/scan', '/scan'),
+        ]
+    )
+
+    # TF kontrolü için debug node (opsiyonel)
+    tf_debug_process = ExecuteProcess(
+        cmd=['ros2', 'run', 'tf2_tools', 'view_frames'],
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('debug_tf'))
     )
 
     return LaunchDescription([
@@ -142,6 +205,22 @@ def generate_launch_description():
             default_value='',
             description='Arguments for Gazebo'),
 
+        DeclareLaunchArgument(
+            'slam_mode',
+            default_value='mapping',
+            choices=['mapping', 'localization'],
+            description='SLAM mode: mapping or localization'),
+
+        DeclareLaunchArgument(
+            'debug_slam',
+            default_value='false',
+            description='Enable SLAM debug monitoring'),
+
+        DeclareLaunchArgument(
+            'debug_tf',
+            default_value='false',
+            description='Enable TF debug output'),
+
         # Launch gazebo
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
@@ -153,29 +232,51 @@ def generate_launch_description():
         # Nodes
         bridge,
         node_robot_state_publisher,
+        base_footprint_publisher,  # Static transform
         gz_spawn_entity,
         
         # Robot spawn edildikten sonra joint_state_broadcaster başlat
         RegisterEventHandler(
             event_handler=OnProcessExit(
                 target_action=gz_spawn_entity,
-                on_exit=[joint_state_broadcaster_spawner],
+                on_exit=[
+                    LogInfo(msg="Robot spawned, starting joint state broadcaster..."),
+                    joint_state_broadcaster_spawner
+                ],
             )
         ),
         
-        # joint_state_broadcaster başladıktan sonra diğer controller'lar başlat
+        # joint_state_broadcaster başladıktan sonra odometry ve controller başlat
         RegisterEventHandler(
             event_handler=OnProcessExit(
                 target_action=joint_state_broadcaster_spawner,
-                on_exit=[wheel_velocity_controller_spawner],
+                on_exit=[
+                    LogInfo(msg="Joint state broadcaster started, launching odometry and controllers..."),
+                    odometry_publisher_node,
+                    wheel_velocity_controller_spawner
+                ],
             )
         ),
-        
-        # SLAM ve RViz'i biraz gecikmeli başlat
+
+        # Odometry başladıktan sonra SLAM başlat (önemli sıralama!)
         RegisterEventHandler(
             event_handler=OnProcessExit(
-                target_action=wheel_velocity_controller_spawner,
-                on_exit=[slam_toolbox_node, rviz_node],
+                target_action=wheel_velocity_controller_spawner,  # wheel_velocity_controller tamamlandıktan sonra
+                on_exit=[
+                    LogInfo(msg="Controllers started, launching SLAM and RViz..."),
+                    # SLAM ve RViz'i aynı anda başlat
+                    TimerAction(
+                        period=2.0,  # 2 saniye bekle
+                        actions=[
+                            slam_toolbox_node,
+                            rviz_node,  # RViz'i hemen başlat
+                            slam_status_node  # Debug node'u da ekle
+                        ]
+                    )
+                ],
             )
         ),
+
+        # Debug processes (koşullu)
+        tf_debug_process,
     ])

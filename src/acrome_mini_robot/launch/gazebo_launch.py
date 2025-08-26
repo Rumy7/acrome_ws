@@ -30,7 +30,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default=True)
     gz_args = LaunchConfiguration('gz_args', default='')
     slam_mode = LaunchConfiguration('slam_mode', default='mapping')  # mapping veya localization
-
+    scan_queue_size = 50  # Lazer verisi için kuyruk boyutu
     # Get URDF via xacro
     robot_description_content = Command(
         [
@@ -122,7 +122,8 @@ def generate_launch_description():
         parameters=[
             slam_params, 
             {'use_sim_time': use_sim_time},
-            {'slam_mode': slam_mode}
+            {'slam_mode': slam_mode},
+            {'scan_queue_size': scan_queue_size}  # Lazer verisi için kuyruk boyutu
         ],
         remappings=[
             ('/scan', '/scan'),

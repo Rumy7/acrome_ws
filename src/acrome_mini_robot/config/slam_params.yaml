@@ -2,13 +2,13 @@ slam_toolbox:
   ros__parameters:
     # === Temel Ayarlar ===
     use_sim_time: true
-    slam_mode: "mapping"
+    slam_mode: mapping
     
     # === Frame Ayarları (TF ağacınızla tutarlı) ===
-    odom_frame: "odom"
-    map_frame: "map" 
-    base_frame: "base_link"
-    scan_topic: "/scan"
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
     
     # === Yaşam Döngüsü ===
     autostart: true

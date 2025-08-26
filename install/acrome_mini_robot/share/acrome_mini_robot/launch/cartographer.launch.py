@@ -1,1 +1,0 @@
-/home/halit/acrome_ws/src/acrome_mini_robot/launch/cartographer.launch.py

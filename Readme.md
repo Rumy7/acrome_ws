@@ -48,8 +48,8 @@ ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
 ros2 lifecycle set /slam_toolbox configure
 ros2 lifecycle set /slam_toolbox activate
 ros2 lifecycle get /slam_toolbox
-python3 src/acrome_mini_robot/launch/robot_controller.py
 
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_robot/base_link/lidar_sensor
 ros2 topic echo /scan --once
 
+python3 src/acrome_mini_robot/launch/robot_controller.py

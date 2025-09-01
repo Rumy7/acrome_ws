@@ -3,6 +3,7 @@
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/gazebo_launch.py
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/lidar_data.txt
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//launch/robot_controller.py
+/home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot/worlds//acrome_mini_robot.world
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//urdf/acrome_mini_robot.xacro
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//config/acrome_controller.yaml
 /home/halit/acrome_ws/install/acrome_mini_robot/share/acrome_mini_robot//config/slam_params.yaml

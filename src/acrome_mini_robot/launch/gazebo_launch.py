@@ -31,6 +31,10 @@ def generate_launch_description():
     gz_args = LaunchConfiguration('gz_args', default='')
     slam_mode = LaunchConfiguration('slam_mode', default='mapping')  # mapping veya localization
     scan_queue_size = 50  # Lazer verisi için kuyruk boyutu
+    
+    # World dosyasının dinamik yolu - hem install hem source dizinini kontrol et
+    world_file = LaunchConfiguration('world_file')
+    
     # Get URDF via xacro
     robot_description_content = Command(
         [
@@ -197,6 +201,15 @@ def generate_launch_description():
     return LaunchDescription([
         # Launch Arguments
         DeclareLaunchArgument(
+            'world_file',
+            default_value=PathJoinSubstitution([
+                FindPackageShare('acrome_mini_robot'),
+                'worlds',
+                'acrome_mini_robot.world'
+            ]),
+            description='Path to the world file'),
+
+        DeclareLaunchArgument(
             'use_sim_time',
             default_value='true',
             description='If true, use simulated clock'),
@@ -222,13 +235,13 @@ def generate_launch_description():
             default_value='false',
             description='Enable TF debug output'),
 
-        # Launch gazebo
+        # Launch gazebo with dynamic world file path
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 [PathJoinSubstitution([FindPackageShare('ros_gz_sim'),
                                        'launch',
                                        'gz_sim.launch.py'])]),
-            launch_arguments=[('gz_args', [gz_args, ' -r -v 1 /home/halit/acrome_ws/src/acrome_mini_robot/worlds/acrome_mini_robot.world'])]),
+            launch_arguments=[('gz_args', [gz_args, ' -r -v 1 ', world_file])]),
 
         # Nodes
         bridge,

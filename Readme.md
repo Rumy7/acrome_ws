@@ -43,13 +43,74 @@ python3 /path_to_robot_controller.py
 ```
 #### komut satırlarını çalıştır ####
 
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
+#ilgili paketleri yükler
+rosdep install --from-paths src --ignore-src -r -y
+sudo apt install ros-jazzy-slam-toolbox
+
+echo "/home/halit/acrome_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
 
 ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
+
 ros2 lifecycle set /slam_toolbox configure
 ros2 lifecycle set /slam_toolbox activate
 ros2 lifecycle get /slam_toolbox
-
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_robot/base_link/lidar_sensor
+
 ros2 topic echo /scan --once
 
 python3 src/acrome_mini_robot/launch/robot_controller.py
+
+
+
+
+Docker build için
+cd ~/acrome_ws
+DOCKER_BUILDKIT=0 docker build -t my_image .
+
+Dockera girmek için
+1. Terminal
+cd ~/acrome_ws
+
+docker run -it --rm \
+  --net=host \
+  -v /home/halit/acrome_ws:/home/halit/acrome_ws \
+  --env DISPLAY=$DISPLAY \
+  --volume /tmp/.X11-unix:/tmp/.X11-unix:rw \
+  acrome_robot:latest /bin/bash
+
+sudo apt install ros-jazzy-slam-toolbox
+sudo apt install ros-jazzy-tf-transformations
+
+. /opt/ros/jazzy/setup.sh
+colcon build
+source install/setup.bash
+source ~/.bashrc
+
+2. Terminal
+cd ~/acrome_ws
+docker ps
+docker exec -it NAMES /bin/bash
+
+ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
+
+3. Terminal
+cd ~/acrome_ws
+docker ps
+docker exec -it NAMES /bin/bash
+
+ros2 lifecycle set /slam_toolbox configure
+ros2 lifecycle set /slam_toolbox activate
+ros2 lifecycle get /slam_toolbox
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_robot/base_link/lidar_sensor
+
+4. Terminal 
+cd ~/acrome_ws
+docker ps
+docker exec -it NAMES /bin/bash
+python3 src/acrome_mini_robot/launch/robot_controller.py
+

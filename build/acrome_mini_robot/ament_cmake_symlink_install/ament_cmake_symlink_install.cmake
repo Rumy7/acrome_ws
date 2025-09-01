@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "launch" "DESTINATION" "share/acrome_mini_robot/")
 ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "launch" "DESTINATION" "share/acrome_mini_robot/")
 
+# install(DIRECTORY "worlds/" "DESTINATION" "share/acrome_mini_robot/worlds/")
+ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "worlds/" "DESTINATION" "share/acrome_mini_robot/worlds/")
+
 # install(DIRECTORY "urdf" "DESTINATION" "share/acrome_mini_robot/")
 ament_cmake_symlink_install_directory("/home/halit/acrome_ws/src/acrome_mini_robot" DIRECTORY "urdf" "DESTINATION" "share/acrome_mini_robot/")
 

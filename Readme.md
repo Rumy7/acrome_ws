@@ -54,15 +54,22 @@ echo "/home/halit/acrome_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 
+Normal Simülasyonu çalıştırmak için:
+
+1. Terminal
+colcon build
+source install/setup.bash
+source ~/.bashrc
+
 ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
 
+2. Terminal
 ros2 lifecycle set /slam_toolbox configure
 ros2 lifecycle set /slam_toolbox activate
 ros2 lifecycle get /slam_toolbox
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_robot/base_link/lidar_sensor
 
-ros2 topic echo /scan --once
-
+3. Terminal
 python3 src/acrome_mini_robot/launch/robot_controller.py
 
 
@@ -96,12 +103,20 @@ cd ~/acrome_ws
 docker ps
 docker exec -it NAMES /bin/bash
 
+. /opt/ros/jazzy/setup.sh
+source install/setup.bash
+source ~/.bashrc
+
 ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
 
 3. Terminal
 cd ~/acrome_ws
 docker ps
 docker exec -it NAMES /bin/bash
+
+. /opt/ros/jazzy/setup.sh
+source install/setup.bash
+source ~/.bashrc
 
 ros2 lifecycle set /slam_toolbox configure
 ros2 lifecycle set /slam_toolbox activate
@@ -112,5 +127,10 @@ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_r
 cd ~/acrome_ws
 docker ps
 docker exec -it NAMES /bin/bash
+
+. /opt/ros/jazzy/setup.sh
+source install/setup.bash
+source ~/.bashrc
+
 python3 src/acrome_mini_robot/launch/robot_controller.py
 

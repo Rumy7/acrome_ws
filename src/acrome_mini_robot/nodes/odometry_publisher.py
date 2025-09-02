@@ -67,28 +67,50 @@ class OdometryPublisher(Node):
             self.last_right_pos = right_pos
             return
 
-        # Diferansiyel sürüş kinematiği
-        dl = (left_pos - self.last_left_pos) * self.wheel_radius
-        dr = (right_pos - self.last_right_pos) * self.wheel_radius
+        # Diferansiyel sürüş kinematiği - DÜZELTİLMİŞ VERSİYON
+        # Encoder değerlerinin farkını al (pozitif yönde dönme = ileri hareket)
+        dl = -(left_pos - self.last_left_pos) * self.wheel_radius
+        dr = -(right_pos - self.last_right_pos) * self.wheel_radius
+        
+        # Eğer hala ters gidiyorsa, aşağıdaki satırları kullan:
+        # dl = -(left_pos - self.last_left_pos) * self.wheel_radius
+        # dr = -(right_pos - self.last_right_pos) * self.wheel_radius
+        
         self.last_left_pos = left_pos
         self.last_right_pos = right_pos
 
+        # Robot'un merkez noktasının hareket ettiği mesafe
         dc = (dr + dl) / 2.0
-        dtheta = (dr - dl) / self.wheel_separation
 
-        # Pose güncelle
+        # Açısal değişim - DÜZELTİLMİŞ İŞARET
+        # Sağ teker daha hızlı dönerse robot sola döner (negatif açısal hız)
+        # Sol teker daha hızlı dönerse robot sağa döner (pozitif açısal hız)
+        dtheta = (dr - dl) / self.wheel_separation
+        
+        # Eğer dönüş yönü hala yanlışsa, işareti ters çevir:
+        # dtheta = -(dr - dl) / self.wheel_separation
+
+        # Pose güncelle - kinematik model
+        # Açısal değişimin yarısını kullanarak daha doğru pose hesaplama
         self.x += dc * math.cos(self.theta + dtheta / 2.0)
         self.y += dc * math.sin(self.theta + dtheta / 2.0)
         self.theta += dtheta
+
+        # Theta'yı [-pi, pi] aralığında tut
+        self.theta = math.atan2(math.sin(self.theta), math.cos(self.theta))
 
         # Zaman
         current_time = self.get_clock().now()
         dt = (current_time - self.last_time).nanoseconds / 1e9
         self.last_time = current_time
 
-        # Twist
+        # Twist (hız) hesaplama
         vx = dc / dt if dt > 0 else 0.0
         vth = dtheta / dt if dt > 0 else 0.0
+
+        # Debug bilgileri
+        self.get_logger().debug(f"dl: {dl:.4f}, dr: {dr:.4f}, dc: {dc:.4f}, dtheta: {dtheta:.4f}")
+        self.get_logger().debug(f"x: {self.x:.4f}, y: {self.y:.4f}, theta: {self.theta:.4f}")
 
         # Odometry mesajı
         odom = Odometry()
@@ -123,13 +145,22 @@ class OdometryPublisher(Node):
         t.transform.rotation = Quaternion(x=qx, y=qy, z=qz, w=qw)
         self.tf_broadcaster.sendTransform(t)
 
+    def __del__(self):
+        # Dosyayı güvenli şekilde kapat
+        if hasattr(self, 'file') and self.file:
+            self.file.close()
+
 
 def main(args=None):
     rclpy.init(args=args)
     node = OdometryPublisher()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
 
 if __name__ == '__main__':

@@ -187,8 +187,17 @@ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_r
 python3 src/acrome_mini_robot/launch/robot_controller.py
 ```
 
-
-
+## rassbery pi için ##
+run publisher from computer
+```
+python3 /home/halit/acrome_ws/src/acrome_mini_robot/launch/pc_forwarder.py
+```
+run receiver from rassbery
+```
+python3 Desktop/odom_receiver.py
+ros2 topic echo /odom
+ros2 topic echo /scan
+```
 ## Docker build için ##
 ```
 cd ~/acrome_ws

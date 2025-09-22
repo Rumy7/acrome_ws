@@ -1,0 +1,42 @@
+1. Terminal
+source install/setup.bash
+source ~/.bashrc
+ros2 launch acrome_mini_robot gazebo_launch.py slam_mode:=mapping
+
+
+2. Terminal
+ros2 lifecycle set /slam_toolbox configure
+ros2 lifecycle set /slam_toolbox activate
+ros2 lifecycle get /slam_toolbox
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 lidar_link acrome_mini_robot/base_link/lidar_sensor
+
+
+normal şekilde bunları çalıştırıyoruz her zamanki gibi
+
+
+bilgisayardan 
+python3 /home/halit/acrome_ws/src/acrome_mini_robot/launch/pc_forwarder.py
+
+
+rassbery pi dan 
+
+1. Terminal
+python3 Desktop/odom_receiver.py
+
+2. Terminal
+ros2 launch my_slam_pkg slam_launch.py
+
+3. Terminal
+ros2 lifecycle set /slam_toolbox configure
+ros2 lifecycle set /slam_toolbox activate
+ros2 lifecycle get /slam_toolbox
+ros2 run tf2_ros static_transform_publisher \
+    --x 0 --y 0 --z 0 \
+    --roll 0 --pitch 0 --yaw 0 \
+    --frame-id base_link \
+    --child-frame-id acrome_mini_robot/base_link/lidar_sensor
+
+
+
+Bunları yapınca rviz deki laser scan ve odometri verileri bilgisayardaki veriler ile uyuşuyor(fixed frame = base_link)
+

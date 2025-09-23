@@ -241,11 +241,11 @@
   <!-- Gazebo Caster Wheel Ayarları -->
   <gazebo reference="caster_wheel">
     <!-- Düşük sürtünme - kolayca kayabilir -->
-    <mu1>0.01</mu1>
-    <mu2>0.01</mu2>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <!-- Düşük sertlik değerleri -->
-    <kp>1000.0</kp>
-    <kd>10.0</kd>
+    <kp>2000.0</kp>
+    <kd>5.0</kd>
     <minDepth>0.001</minDepth>
     <maxVel>1.0</maxVel>
     <material>Gazebo/Black</material>
@@ -293,21 +293,33 @@
   <gazebo reference="wheel_2">
     <mu1>1.5</mu1>
     <mu2>1.5</mu2>
-    <kp>10000.0</kp>
-    <kd>1.0</kd>
+    <kp>2000.0</kp>
+    <kd>5.0</kd>
     <minDepth>0.001</minDepth>
-    <maxVel>0.1</maxVel>
+    <maxVel>1.0</maxVel>
     <material>Gazebo/Black</material>
   </gazebo>
 
   <gazebo reference="wheel_3">
     <mu1>1.5</mu1>
     <mu2>1.5</mu2>
-    <kp>10000.0</kp>
-    <kd>1.0</kd>
+    <kp>2000.0</kp>
+    <kd>5.0</kd>
     <minDepth>0.001</minDepth>
-    <maxVel>0.1</maxVel>
+    <maxVel>1.0</maxVel>
     <material>Gazebo/Black</material>
   </gazebo>
+
+  <surface>
+    <friction>
+      <ode>
+        <mu>1.5</mu>
+        <mu2>1.5</mu2>
+        <fdir1>0 1 0</fdir1>
+        <slip1>0.01</slip1>
+        <slip2>0.01</slip2>
+      </ode>
+    </friction>
+  </surface>
 
 </robot>

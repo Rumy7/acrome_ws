@@ -23,7 +23,7 @@ from launch.conditions import IfCondition, LaunchConfigurationEquals
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch_ros.parameter_descriptions import ParameterValue
-
+from launch.substitutions import TextSubstitution
 
 def generate_launch_description():
     # Launch Arguments
@@ -157,10 +157,7 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}]
     )
 
-    # RViz config
-    rviz_config = PathJoinSubstitution(
-        [FindPackageShare('acrome_mini_robot'), 'rviz', 'acrome_slam_config.rviz']  # SLAM için özel config
-    )
+    rviz_config = TextSubstitution(text="/home/halit/acrome_ws/src/acrome_mini_robot/rviz/acrome_slam_config.rviz")
 
     rviz_node = Node(
         package='rviz2',

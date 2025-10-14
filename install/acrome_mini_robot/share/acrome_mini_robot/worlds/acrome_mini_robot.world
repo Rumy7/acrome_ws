@@ -1,1 +1,293 @@
-/home/halit/acrome_ws/src/acrome_mini_robot/worlds/acrome_mini_robot.world
+<sdf version="1.6">
+  <world name="default">
+    <!-- Zemin -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Duvarlarla çevrili alan -->
+    <model name="walled_area">
+      <static>true</static>
+
+      <!-- Ön duvar -->
+      <link name="front_wall">
+        <pose>0 3.5 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>7 0.1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>7 0.1 1</size>
+            </box>
+          </geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+
+      <!-- Arka duvar -->
+      <link name="back_wall">
+        <pose>0 -3.5 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>7 0.1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>7 0.1 1</size>
+            </box>
+          </geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+
+      <!-- Sol duvar -->
+      <link name="left_wall">
+        <pose>-3.5 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 7 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 7 1</size>
+            </box>
+          </geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+
+      <!-- Sağ duvar -->
+      <link name="right_wall">
+        <pose>3.5 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 7 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 7 1</size>
+            </box>
+          </geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+
+      <!-- Sütunlar -->
+      <link name="column1">
+        <pose>-2.1 -2.1 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column2">
+        <pose>2.1 -2.1 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column3">
+        <pose>-2.1 2.1 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column4">
+        <pose>2.1 2.1 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column5">
+        <pose>2.1 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column6">
+        <pose>-2.1 0 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column7">
+        <pose> 0 2.1 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+      <link name="column8">
+        <pose>0 -2.1 0.5 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material><ambient>0.7 0.3 0.3 1</ambient></material>
+        </visual>
+      </link>
+
+    </model>
+
+    <physics type='ode'>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+    </physics>
+
+  </world>
+</sdf>

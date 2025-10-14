@@ -43,7 +43,82 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/" TYPE DIRECTORY FILES "/home/halit/acrome_ws/src/acrome_mini_robot/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/worlds/" TYPE DIRECTORY FILES "/home/halit/acrome_ws/src/acrome_mini_robot/worlds/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/" TYPE DIRECTORY FILES "/home/halit/acrome_ws/src/acrome_mini_robot/urdf")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/" TYPE DIRECTORY FILES "/home/halit/acrome_ws/src/acrome_mini_robot/config")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/acrome_mini_robot" TYPE PROGRAM FILES "/home/halit/acrome_ws/src/acrome_mini_robot/nodes/odometry_publisher.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/acrome_mini_robot")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/acrome_mini_robot")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/environment" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/environment" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/acrome_mini_robot")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot/cmake" TYPE FILE FILES
+    "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig.cmake"
+    "/home/halit/acrome_ws/build/acrome_mini_robot/ament_cmake_core/acrome_mini_robotConfig-version.cmake"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/acrome_mini_robot" TYPE FILE FILES "/home/halit/acrome_ws/src/acrome_mini_robot/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

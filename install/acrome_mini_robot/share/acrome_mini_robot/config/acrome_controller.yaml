@@ -1,1 +1,14 @@
-/home/halit/acrome_ws/src/acrome_mini_robot/config/acrome_controller.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+wheel_velocity_controller:
+  ros__parameters:
+    type: velocity_controllers/JointGroupVelocityController
+    joints:
+      - base_to_wheel_2
+      - base_to_wheel_3
+    interface_name: velocity

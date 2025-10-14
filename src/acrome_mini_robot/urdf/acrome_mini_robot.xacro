@@ -113,6 +113,14 @@
       </material>
     </visual>
     <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>1.0</mu2>
+          </ode>
+        </friction>
+      </surface>
       <geometry>
         <cylinder radius="0.06" length="0.025"/>
       </geometry>
@@ -310,16 +318,6 @@
     <material>Gazebo/Black</material>
   </gazebo>
 
-  <surface>
-    <friction>
-      <ode>
-        <mu>1.5</mu>
-        <mu2>1.5</mu2>
-        <fdir1>0 1 0</fdir1>
-        <slip1>0.01</slip1>
-        <slip2>0.01</slip2>
-      </ode>
-    </friction>
-  </surface>
+
 
 </robot>

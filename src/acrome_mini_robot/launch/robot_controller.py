@@ -45,7 +45,6 @@ class TeleopNode(Node):
         line = f"{timestamp}," + ",".join(f"{r:.3f}" for r in ranges_sample) + "\n"
         self.lidar_file.write(line)
         self.lidar_file.flush()
-        self.get_logger().info(f"Lidar verisi dosyaya yazıldı: {ranges_sample}")
 
     def destroy_node(self):
         self.lidar_file.close()
